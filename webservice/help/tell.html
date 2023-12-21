@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>XB小报 - 帮助-信息发布页</title>
+	  <meta name="content-type" content="text/html; charset=utf-8">
+    <meta http-equlv="Content-Type" content="text/html;charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+    <link rel="stylesheet" type="text/css" href="../notie.css">
+    </head>
+    <body>
+    <div style="text-align:center;font-size:60px;font-weight:900">
+    信息发布页
+       <hr />
+       <div style="text-align:left;font-size:20px;font-weight:100">
+       本页帮助包含：<a href="#gyjk">关于近况</a>，<a href="#jcgx">查询与更新版本</a>，<a href="#zyxz">资源下载中心</a>，<a href="#ds">打赏</a>，<a href="#gonggao">公告</a>
+       <hr/>
+       <div id="gyjk">
+       关于近况<br>
+       本页面主要是ZH开发时想到的一些问题以及解答（相当于早期的帮助页面，当时还没有本页面），并不打算删除<br>
+       </div>
+       <hr />
+       <div id="jcgx">
+       查询与更新版本<br>
+       提供查询与检查更新的入口~<br>
+       <img src="img/testupdate.gif" style="vertical-align:middle"/><br>
+       </div>
+       <hr />
+        <div id="zyxz">
+        资源下载中心<br>
+        提供了撸号大师/XB小报全系产品，包括Android版和Windows版，联网获取<br>
+        <img src="img/ziyuan.jpg" style="vertical-align:middle"/><br>
+       </div>
+       <hr />
+        <div id="ds">
+        打赏<br>
+        啥也憋说了，掏出手机赶紧来一发吧！！！<br>
+       </div>
+       <hr />
+        <div id="gonggao">
+        公告<br>
+        为了不影响您正常使用软件（尤其是在线内容），请定期关注公告，里面有XB发布的大事小情，例如服务器维护，技术支持等等内容<br>
+       </div>
+       <hr />
+       <div style="text-align:center;font-size:18px;font-weight:1">
+<a href="http://zhanghe56.m.icoc.me" target=_blank>XB小报官方网站</a><p>
+based on html<img width="25" height="25" src="../gitee.jpg" style="vertical-align:middle"/><p>
+powered by<button type="button" onclick="realFunction()"class="button2">
+ZH's team
+</button><p>
+<p id="actually" style="display:none">(其实只有ZH一个人)<button type="button" onclick="closeFunction()" >
+收起
+</button></p>
+白色太难看？来，<button onclick="setColor()"class="button2">给点颜色</button>
+<div id="results"></div><p>
+<script src="../jsallonline.js"></script>
+<script src="../notie.js"></script>
+    <script src="../nightly.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      var Nightly = new Nightly(
+        {
+          classes: [
+            {
+              apply: 'redify',
+              to: '.upper',
+            },
+            {
+              apply: 'greenfy',
+              to: '.lower',
+            },
+          ],
+        },
+        true
+      );
+    </script>
+</body>
+</html>

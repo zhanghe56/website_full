@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>XB小报 - 高考服务专区</title>
+    <link rel="stylesheet" type="text/css" href="../../style.css" />
+    </head>
+    <body onload="checkxbclient()">
+    <div style="text-align:center;font-size:60px;font-weight:900">
+    高考服务
+    <hr />
+    <script src="banner/gaokaojs.js"></script>
+    <div style="text-align:left;font-size:18px;font-weight:100">
+   <img height="25" src="banner/check.png" style="vertical-align:middle"/>查分/查录取<br>
+      <div style="text-align:left;font-size:20px;font-weight:100">
+  吉林省教育考试院①<input type="image" height="25" src="banner/export.png" style="vertical-align:middle" onclick="jyksy1()"/><br>
+  吉林省教育考试院②<input type="image" height="25" src="banner/export.png" style="vertical-align:middle" onclick="jyksy2()"/><br>
+  吉林教育电视台<input type="image" height="25" src="banner/export.png" style="vertical-align:middle" onclick="jydst()"/><br>
+  	    <div style="text-align:left;font-size:18px;font-weight:100">
+   <img height="25" src="banner/wccx.png" style="vertical-align:middle"/>录取信息<br>
+  <div style="text-align:left;font-size:20px;font-weight:100">
+  各批次录取时间表<input type="image" height="25" src="banner/export.png" style="vertical-align:middle" onclick="yfydcx()"/><br>
+    <div style="text-align:left;font-size:18px;font-weight:100">
+   <img height="25" src="banner/zhiyuan.png" style="vertical-align:middle"/>志愿助手<br>
+  <div style="text-align:left;font-size:20px;font-weight:100">
+  院校库（由教育部阳光高考网提供）<input type="image" height="25" src="banner/export.png" style="vertical-align:middle" onclick="yxkyggk()"/><br>
+  专业库（由教育部阳光高考网提供）<input type="image" height="25" src="banner/export.png" style="vertical-align:middle" onclick="zykyggk()"/><br>
+  吉林省高考志愿填报系统<input type="image" height="25" src="banner/export.png" style="vertical-align:middle" onclick="gkzyjleea()"/><br>
+  吉林省招生指南（下册）<input type="image" height="25" src="banner/export.png" style="vertical-align:middle" onclick="zsznxc()"/><br>
+        <hr/>
+       <div style="text-align:center;font-size:18px;font-weight:1">
+<a href="http://zhanghe56.m.icoc.me" target=_blank>XB小报官方网站</a><p>
+based on html<img width="25" height="25" src="../../gitee.jpg" style="vertical-align:middle"/><p>
+powered by<button type="button" onclick="realFunction()"class="button2">
+ZH's team
+</button><p>
+<p id="actually" style="display:none">(其实只有ZH一个人)<button type="button" onclick="closeFunction()" >
+收起
+</button></p>
+祝大家金榜题名！来，<button onclick="setColor()"class="button2">给点颜色</button>
+<div id="results"></div><p>
+<script src="../../jsallonline.js"></script>
+    <script src="../../nightly.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      var Nightly = new Nightly(
+        {
+          classes: [
+            {
+              apply: 'redify',
+              to: '.upper',
+            },
+            {
+              apply: 'greenfy',
+              to: '.lower',
+            },
+          ],
+        },
+        true
+      );
+      document.getElementById('btn').addEventListener('click', function () {
+        Nightly.toggle();
+      });
+    </script>
+</body>
+</html>

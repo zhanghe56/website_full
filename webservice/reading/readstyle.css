@@ -1,0 +1,11 @@
+                                .button7 {
+            -webkit-transition-duration: 0.4s;
+            transition-duration: 0.4s;
+            padding: 4px 8px;
+            text-align: center;
+            background-color: #E0BE9C;
+            color: black;
+            border: 2px solid #FFFFFF;
+            border-radius:5px;
+            font-size:15px;
+        }

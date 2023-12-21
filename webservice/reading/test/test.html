@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>XB小报 - 测试</title>
+	<meta charset="UTF-8">
+     <link rel="stylesheet" href="layui/css/layui.css"  media="all">
+</head>
+    <body onload="checkxbclient()">
+    <div style="text-align:center;font-size:60px;font-weight:900">
+    测试
+    </div>
+       <hr />
+       <div style="text-align:left;font-size:20px;font-weight:1">
+      <p id="testmsg">我们计划使用一种新的UI。目前这种UI我们无法确定它的稳定性，所以我们在此页面测试。为尽量确保稳定，本页面将禁用给点颜色。</p>
+      </div>
+  <fieldset class="layui-elem-field site-demo-button" style="margin-top: 30px">
+  <legend>按钮主题</legend>
+  <div>
+    <button type="button" class="layui-btn layui-btn-primary">原始按钮</button>
+    <button type="button" class="layui-btn">默认按钮</button>
+    <button type="button" class="layui-btn layui-btn-normal">百搭按钮</button>
+    <button type="button" class="layui-btn layui-btn-warm">暖色按钮</button>
+    <button type="button" class="layui-btn layui-btn-danger">警告按钮</button>
+    <button type="button" class="layui-btn layui-btn-disabled">禁用按钮</button>
+  </div>
+</fieldset>
+<br>
+<div class="layui-progress layui-progress-big" lay-showpercent="true" lay-filter="demo">
+  <div class="layui-progress-bar layui-bg-red" lay-percent="0%"></div>
+</div>
+<div class="site-demo-button" style="margin-top: 20px; margin-bottom: 0;">
+  <button class="layui-btn site-demo-active" data-type="setPercent">设置 50%</button>
+  <button class="layui-btn site-demo-active" data-type="loading">模拟 loading</button>
+</div>
+<fieldset class="layui-elem-field layui-field-title" style="margin-top: 30px;">
+  <legend>基础效果</legend>
+</fieldset>
+ 
+<div id="test1"></div>
+ 
+<fieldset class="layui-elem-field layui-field-title" style="margin-top: 30px;">
+  <legend>显示文字</legend>
+</fieldset>
+ 
+<div id="test2"></div>
+<script src="layui/layui.js" charset="utf-8"></script>
+<script>
+layui.use('element', function(){
+  var $ = layui.jquery
+  ,element = layui.element; //Tab的切换功能，切换事件监听等，需要依赖element模块
+  
+  //触发事件
+  var active = {
+    setPercent: function(){
+      //设置50%进度
+      element.progress('demo', '50%')
+    }
+    ,loading: function(othis){
+      var DISABLED = 'layui-btn-disabled';
+      if(othis.hasClass(DISABLED)) return;
+    
+      //模拟loading
+      var n = 0, timer = setInterval(function(){
+        n = n + Math.random()*10|0;  
+        if(n>100){
+          n = 100;
+          clearInterval(timer);
+          othis.removeClass(DISABLED);
+        }
+        element.progress('demo', n+'%');
+      }, 300+Math.random()*1000);
+      
+      othis.addClass(DISABLED);
+    }
+  };
+  
+  $('.site-demo-active').on('click', function(){
+    var othis = $(this), type = $(this).data('type');
+    active[type] ? active[type].call(this, othis) : '';
+  });
+});
+</script>
+<script>
+layui.use(['rate'], function(){
+  var rate = layui.rate;
+  //基础效果
+  rate.render({
+    elem: '#test1'
+  })
+ 
+  //显示文字
+  rate.render({
+    elem: '#test2'
+    ,value: 2 //初始值
+    ,text: true //开启文本
+  });
+  })
+</script>
+     <hr />
+       <div style="text-align:center;font-size:18px;font-weight:1">
+<a href="http://zhanghe56.m.icoc.me" target=_blank>XB小报官方网站</a><p>
+based on html<img width="25" height="25" src="../../gitee.jpg" style="vertical-align:middle"/><p>
+powered by
+<button type="button" class="layui-btn layui-btn-xs layui-btn-normal" onclick="realFunction()">ZH's team</button><p>
+<p id="actually" style="display:none">(其实只有ZH一个人)<button type="button" onclick="closeFunction()" >
+收起
+</button></p>
+白色太难看？来，<button type="button" class="layui-btn layui-btn-xs layui-btn-disabled">给点颜色</button>
+<div id="results"></div><p>
+<script src="../../jsallonline.js"></script>
+<script src="test.js"></script>
+</body>
+</html>

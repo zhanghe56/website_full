@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>健康卫士-数据查询</title>
+		    <meta charset="UTF-8">
+            <link rel="stylesheet" type="text/css" href="assets/style.css" />
+            <link rel="stylesheet" href="assets/notie.css">
+            <link rel="shortcut icon" href="assets/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+               <style>
+            body {
+                margin: 0 auto;
+                text-align: left;
+                font-family:Arial,Helvetica,sans-serif;
+            }
+            a{text-decoration: none;}
+        </style>
+		</head>
+    <body>
+    <script src="assets/js_data.js"></script>
+    <script src="assets/notie.js"></script>
+        <div style="text-align:center;font-size:50px;font-weight:500">
+数据查询
+</div>
+<hr/>
+<div style="text-align:left;font-size:20px;font-weight:1">
+<p id="log_msg">请选择您要查询的项目...</p>
+<hr />
+<input type="button" onclick="disp_prompt()" class="round_button blue" value="查询个人未填报信息" /><p>
+<input type="button" onclick="admin_output()" class="round_button blue" value="导出全部未填报信息（管理员）" /><p>
+<hr/>
+<div style="text-align:center;font-size:18px;font-weight:1">
+powered by<button type="button" class="button2" onclick="document.getElementById('actually').style.display='block'">
+ZH's team
+</button><p>
+<p id="actually" style="display:none">(其实只有ZH一个人)<button type="button" onclick="document.getElementById('actually').style.display='none'" >
+收起
+</button></p>
+</div>
+</div>
+</html>

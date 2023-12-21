@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>XB小报 - 帮助-设置</title>
+	  <meta name="content-type" content="text/html; charset=utf-8">
+    <meta http-equlv="Content-Type" content="text/html;charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+    <link rel="stylesheet" type="text/css" href="../notie.css">
+    </head>
+    <body>
+    <div style="text-align:center;font-size:60px;font-weight:900">
+    设置
+       <hr />
+       <div style="text-align:left;font-size:20px;font-weight:100">
+       <div id="scommon">常规<br>
+       1.切换夜间模式，即可切换为夜间模式<br>
+       <img src="img/black.gif" style="vertical-align:middle"/><br>
+       2.昵称、问候语修改<br>
+       <img src="img/changehello.gif" style="vertical-align:middle"/><br>
+       3.选择服务器提供商<br>
+       <img src="img/changeweb.gif" style="vertical-align:middle"/><br></div>
+       <hr/>
+       <div id="sgame">
+       游戏<br>
+       ●2048部分<br>
+       提供修改2048最高分&加入1024块功能<br>
+       感觉不用说，都懂~<br>
+       ●连线游戏部分<br>
+       游戏进度导入、导出<br>
+       点击导出，您会得到一个四位代码，就像OA==这样，请保留该代码至您要进行导入<br>
+       点击导入，输入代码，重新进入游戏，即可同步进度~<br></div>
+       <hr/>
+       <div id="spro">
+       高级<br>
+       本教程暂不提供该部分帮助，详情请详询ZH~~<br>
+       小小说一句，大部分问题清除缓存都可以解决，可以先试试，没啥影响~<br>
+       </div>
+       <hr />
+       <div style="text-align:center;font-size:18px;font-weight:1">
+<a href="http://zhanghe56.m.icoc.me" target=_blank>XB小报官方网站</a><p>
+based on html<img width="25" height="25" src="../gitee.jpg" style="vertical-align:middle"/><p>
+powered by<button type="button" onclick="realFunction()"class="button2">
+ZH's team
+</button><p>
+<p id="actually" style="display:none">(其实只有ZH一个人)<button type="button" onclick="closeFunction()" >
+收起
+</button></p>
+白色太难看？来，<button onclick="setColor()"class="button2">给点颜色</button>
+<div id="results"></div><p>
+<script src="../jsallonline.js"></script>
+<script src="../notie.js"></script>
+    <script src="../nightly.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      var Nightly = new Nightly(
+        {
+          classes: [
+            {
+              apply: 'redify',
+              to: '.upper',
+            },
+            {
+              apply: 'greenfy',
+              to: '.lower',
+            },
+          ],
+        },
+        true
+      );
+    </script>
+</body>
+</html>

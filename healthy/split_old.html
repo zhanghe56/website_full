@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>健康卫士-数据筛选</title>
+		    <meta charset="UTF-8">
+            <link rel="stylesheet" type="text/css" href="assets/style.css" />
+            <link rel="stylesheet" href="assets/notie.css">
+            <link rel="shortcut icon" href="assets/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+               <style>
+            body {
+                margin: 0 auto;
+                text-align: left;
+                font-family:Arial,Helvetica,sans-serif;
+            }
+            a{text-decoration: none;}
+        </style>
+		</head>
+    <body onload="get_avoid()">
+    <script src="assets/js_data.js"></script>
+    <script src="assets/notie.js"></script>
+<div style="text-align:center;font-size:50px;font-weight:500">
+数据筛选
+</div>
+<hr/>
+<div style="text-align:center">
+<p style="margin-left: 15px;margin-right: 15px;text-align: left;margin-bottom: 10px;">输入区域支持自动剔除非姓名数据所在行，每行一个姓名：</p>
+<div id="textinput" style="text-align:center">
+<textarea id="inputarea" rows="15" cols="25"></textarea>
+</div>
+<input type="button" id="show_input" onclick="show_input()" style="margin-left: 15px;display:none" class="round_button blue" value="展开输入区" />
+<input type="button" id="none_input" onclick="none_input()" style="margin-left: 15px;display:none" class="round_button blue" value="收起输入区" />
+<div style="text-align:left;margin-left: 20px;">
+<canvas id="canvas" width="550" height="300" style="display: none;background-color: white;"></canvas>
+<img id="result" width="300"><text id="res_msg" style="display: none;"></text>
+</div>
+</div>
+<hr />
+<div style="text-align:left;margin-left: 20px;margin-right: 20px;margin-bottom: 10px;margin-top: 10px;">
+    <button id="only_one" type="button" onclick="split_name()" class="round_button blue">筛选未出现的姓名</button>
+    <div id="need" style="display:none">
+        <button type="button" onclick="split_name()" class="round_button blue">筛选未出现的姓名</button>
+        <input type="button" id="i_need_word" onclick="i_need_word()" class="round_button blue" value="我需要文字版名单">
+        <input type="button" id="i_need_pic" onclick="i_need_pic()" class="round_button blue" value="我需要图片版名单" style="display: none;">
+    </div>
+    <p id="log_msgs" style="display:none">正在加载，请稍后...</p><p>
+    <text id="avoid_msg"></text>，<a  href="avoid.html">去设置忽略数据</a><p>
+    </div>
+<hr/>
+<div style="text-align:center;font-size:18px;font-weight:1">
+powered by<button type="button" class="button2" onclick="document.getElementById('actually').style.display='block'">
+ZH's team
+</button><p>
+<p id="actually" style="display:none;margin-top: 10px;">(其实只有ZH一个人)<button type="button" onclick="document.getElementById('actually').style.display='none'" >
+收起
+</button></p>
+</div>
+</html>

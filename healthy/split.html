@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="cn">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>健康卫士-数据筛选(新ui)</title>
+
+    <link href="assets/bootstrap/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body class="bg-light" onload="get_avoid_ui()">
+
+<header class="bd-header bg-dark py-3 d-flex align-items-stretch border-bottom border-dark">
+    <div class="container-fluid d-flex align-items-center">
+      <h1 class="d-flex align-items-center fs-4 text-white mb-0">
+        <img src="assets/split.png" width="38" height="38" class="me-3" alt="split">
+        数据筛选
+      </h1>
+      <a href="index.html" class="ms-auto link-light" hreflang="ar">返回主菜单</a>
+    </div>
+</header>
+
+  <iframe src="marquee.html" style="width: 100%;height:89px;" ></iframe>
+
+  <div style="margin-left: 5%;margin-right: 5%;margin-top: 15px;" class="alert alert-primary alert-dismissible fade show" role="alert">
+    tips：输入区域支持自动剔除非姓名数据和错误数据哦~
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+
+  <div class="form-floating" style="margin-left: 10%;margin-right: 10%;margin-top: 20px;margin-bottom: 20px;" id="textarea-div">
+    <textarea class="form-control" placeholder="请在此输入数据..." id="floatingTextarea" style="height: 300px"></textarea>
+    <label for="floatingTextarea2">姓名数据(每行一个)</label>
+  </div>
+
+  <button type="button" class="btn btn-primary" style="display: none;margin:0 auto;margin-bottom: 15px;"  id="show_input" onclick="show_input_ui()">
+    展开输入区
+  </button>
+
+  <button type="button" class="btn btn-primary" style="display: none;margin:0 auto;margin-bottom: 15px;"  id="none_input" onclick="none_input_ui()">
+    收起输入区
+  </button>
+
+  <div style="margin-left: 5%;margin-right: 5%;margin-top: 15px;display: none;" id="ls-div" class="bd-example-snippet bd-code-snippet"><div class="bd-example">
+    <ul class="list-group" id="ls-group">
+    </ul>
+    </div>
+  </div>
+
+  <canvas id="canvas" width="550" height="300" style="display: none;background-color: white;"></canvas>
+  <img id="result" width="300" style="display: none;"><br>
+
+  <button type="button" class="btn btn-primary" style="margin-left: 5%;margin-top: 15px;margin-bottom: 10px;" onclick="split_ui()">
+    筛选未出现的姓名
+  </button>
+
+  <button type="button" class="btn btn-primary" id="i_need_word" style="margin-left: 5%;margin-top: 15px;margin-bottom: 10px;display: none;" onclick="i_need_word_ui()">
+    我需要文字版名单
+  </button>
+
+  <button type="button" class="btn btn-primary" id="i_need_pic" style="margin-left: 5%;margin-top: 15px;margin-bottom: 10px;display: none;" onclick="i_need_pic_ui()">
+    我需要图片版名单
+  </button>
+
+  <div class="bd-example-snippet bd-code-snippet" id="loading" style="display: none;">
+    <p class="lead"><div class="spinner-border text-primary" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>正在加载，请稍后...</p>
+    </div>
+
+  <div style="margin-left: 5%;margin-right: 5%;margin-top: 15px;margin-bottom: 10px;" id="avoid_msg" class="alert alert-warning" role="alert">
+    
+  </div>
+
+  <footer class="text-muted py-5" style="background-color: white;margin-top: 35px;">
+    <div class="container">
+      <p class="float-end mb-1">
+        <a href="#" >返回顶部</a>
+      </p>
+      <p class="mb-1">powered by ZH</p>
+      <p class="mb-0">UI based on Bootstrap v5.2.2</p>
+    </div>
+  </footer>
+
+  <script src="assets/bootstrap/bootstrap.min.js"></script>
+  <script src="assets/js_data.js"></script>
+
+</body>
+</html>

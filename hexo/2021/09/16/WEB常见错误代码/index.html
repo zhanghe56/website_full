@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="Hexo Theme Keep">
+    <meta name="description" content="Hexo Theme Keep">
+    <meta name="author" content="ZH">
+    
+    <title>
+        
+            WEB常见错误代码 |
+        
+        ZH&#39;s blog
+    </title>
+    
+<link rel="stylesheet" href="/hexo/css/style.css">
+
+    <link rel="shortcut icon" href="/hexo/images/logo.png">
+    
+<link rel="stylesheet" href="/hexo/font/css/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/hexo/font/css/regular.min.css">
+
+    
+<link rel="stylesheet" href="/hexo/font/css/solid.min.css">
+
+    
+<link rel="stylesheet" href="/hexo/font/css/brands.min.css">
+
+    <script id="hexo-configurations">
+    let KEEP = window.KEEP || {}
+    KEEP.hexo_config = {"hostname":"47.115.214.72","root":"/hexo/","language":"zh-CN","path":"search.xml"}
+    KEEP.theme_config = {"toc":{"enable":true,"number":true,"expand_all":true,"init_open":false},"style":{"primary_color":"#0066cc","logo":"/images/logo.png","favicon":"/images/logo.png","avatar":"/images/header.jpg","font_size":null,"font_family":null,"hover":{"shadow":false,"scale":false},"first_screen":{"enable":true,"header_transparent":false,"background_img":"/hexo/images/bg.svg","description":"我们所经历的每个平凡的日常，也许就是连续发生的奇迹。","font_color":null,"hitokoto":false},"scroll":{"progress_bar":true,"percent":true}},"local_search":{"enable":true,"preload":false},"code_copy":{},"code_block":{"tools":{"enable":true,"style":"default"},"highlight_theme":"default"},"side_tools":{},"pjax":{"enable":false},"lazyload":{"enable":true},"comment":{"enable":false,"use":"valine","valine":{"appid":null,"appkey":null,"server_urls":null,"placeholder":null},"gitalk":{"github_id":null,"github_admins":null,"repository":null,"client_id":null,"client_secret":null,"proxy":null},"twikoo":{"env_id":null,"region":null,"version":"1.6.8"},"waline":{"server_url":null,"reaction":false,"version":2}},"post":{"author_label":{"enable":true,"auto":true,"custom_label_list":["Trainee","Engineer","Architect"]},"word_count":{"enable":true,"wordcount":true,"min2read":true},"img_align":"left","copyright_info":true},"version":"3.6.1"}
+    KEEP.language_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"}
+    KEEP.language_code_block = {"copy":"复制代码","copied":"已复制","fold":"折叠代码块","folded":"已折叠"}
+    KEEP.language_copy_copyright = {"copy":"复制版权信息","copied":"已复制","title":"原文标题","author":"原文作者","link":"原文链接"}
+  </script>
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+        <span class="scroll-progress-bar"></span>
+    
+
+    
+</div>
+
+
+<main class="page-container">
+
+    
+
+    <div class="page-main-content">
+
+        <div class="page-main-content-top">
+            
+<header class="header-wrapper">
+
+    <div class="header-content">
+        <div class="left">
+            
+                <a class="logo-image" href="/">
+                    <img src="/hexo/images/logo.png">
+                </a>
+            
+            <a class="logo-title" href="/">
+               ZH&#39;s blog
+            </a>
+        </div>
+
+        <div class="right">
+            <div class="pc">
+                <ul class="menu-list">
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/hexo/"
+                            >
+                                首页
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/hexo/archives"
+                            >
+                                归档
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/hexo/tags"
+                            >
+                                标签
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/hexo/categories"
+                            >
+                                分类
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/hexo/about"
+                            >
+                                关于
+                            </a>
+                        </li>
+                    
+                    
+                        <li class="menu-item search search-popup-trigger">
+                            <i class="fas fa-search"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fas fa-search"></i></div>
+                
+                <div class="icon-item menu-bar">
+                    <div class="menu-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-drawer">
+        <ul class="drawer-menu-list">
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/hexo/">首页</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/hexo/archives">归档</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/hexo/tags">标签</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/hexo/categories">分类</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/hexo/about">关于</a>
+                </li>
+            
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="page-main-content-middle">
+
+            <div class="main-content">
+
+                
+                    <div class="fade-in-down-animation">
+    <div class="post-page-container">
+        <div class="article-content-container">
+
+            <div class="article-title">
+                <span class="title-hover-animation">WEB常见错误代码</span>
+            </div>
+
+            
+                <div class="article-header">
+                    <div class="avatar">
+                        <img src="/hexo/images/header.jpg">
+                    </div>
+                    <div class="info">
+                        <div class="author">
+                            <span class="name">ZH</span>
+                            
+                                <span class="author-label">Lv2</span>
+                            
+                        </div>
+                        <div class="meta-info">
+                            
+<div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        
+            <i class="fa-regular fa-calendar-plus"></i>&nbsp;
+        
+        <span class="pc">2021-09-16 21:45:11</span>
+        <span class="mobile">2021-09-16 21:45</span>
+    </span>
+    
+        <span class="article-update-date article-meta-item">
+        <i class="fas fa-file-pen"></i>&nbsp;
+        <span class="pc">2021-09-16 21:50:21</span>
+    </span>
+    
+    
+        <span class="article-categories article-meta-item">
+            <i class="fas fa-folder"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/hexo/categories/%E8%B5%84%E6%96%99/">资料</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fas fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/hexo/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8%E8%BF%90%E7%BB%B4/">服务器运维</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+
+    
+    
+        <span class="article-wordcount article-meta-item">
+            <i class="fas fa-file-word"></i>&nbsp;<span>1k 字</span>
+        </span>
+    
+    
+        <span class="article-min2read article-meta-item">
+            <i class="fas fa-clock"></i>&nbsp;<span>3 分钟</span>
+        </span>
+    
+    
+</div>
+
+                        </div>
+                    </div>
+                </div>
+            
+
+            <div class="article-content keep-markdown-body">
+                
+
+                <h3 id="1xx-信息提示"><a href="#1xx-信息提示" class="headerlink" title="1xx - 信息提示"></a>1xx - 信息提示</h3><p>这些状态代码表示临时的响应。客户端在收到常规响应之前，应准备接收一个或多个 1xx 响应。</p>
+<p>100 - 继续。<br>101 - 切换协议。</p>
+<h3 id="2xx-成功"><a href="#2xx-成功" class="headerlink" title="2xx - 成功"></a>2xx - 成功</h3><p>这类状态代码表明服务器成功地接受了客户端请求。</p>
+<p>200 - 确定。客户端请求已成功。<br>201 - 已创建。<br>202 - 已接受。<br>203 - 非权威性信息。<br>204 - 无内容。<br>205 - 重置内容。<br>206 - 部分内容。</p>
+<h3 id="3xx-重定向"><a href="#3xx-重定向" class="headerlink" title="3xx - 重定向"></a>3xx - 重定向</h3><p>客户端浏览器必须采取更多操作来实现请求。例如，浏览器可能不得不请求服务器上的不同的页面，或通过代理服务器重复该请求。</p>
+<p>301 - 对象已永久移走，即永久重定向。<br>302 - 对象已临时移动。<br>304 - 未修改。<br>307 - 临时重定向。</p>
+<h3 id="4xx-客户端错误"><a href="#4xx-客户端错误" class="headerlink" title="4xx - 客户端错误"></a>4xx - 客户端错误</h3><p>发生错误，客户端似乎有问题。例如，客户端请求不存在的页面，客户端未提供有效的身份验证信息。 </p>
+<p>400 - 错误的请求。<br>401 - 访问被拒绝。IIS 定义了许多不同的 401 错误，它们指明更为具体的错误原因。这些具体的错误代码在浏览器中显示，但不在 IIS 日志中显示：<br>401.1 - 登录失败。<br>401.2 - 服务器配置导致登录失败。<br>401.3 - 由于 ACL 对资源的限制而未获得授权。<br>401.4 - 筛选器授权失败。<br>401.5 - ISAPI/CGI 应用程序授权失败。<br>401.7 – 访问被 Web 服务器上的 URL 授权策略拒绝。这个错误代码为 IIS 6.0 所专用。<br>403 - 禁止访问：IIS 定义了许多不同的 403 错误，它们指明更为具体的错误原因：<br>403.1 - 执行访问被禁止。<br>403.2 - 读访问被禁止。<br>403.3 - 写访问被禁止。<br>403.4 - 要求 SSL。<br>403.5 - 要求 SSL 128。<br>403.6 - IP 地址被拒绝。<br>403.7 - 要求客户端证书。<br>403.8 - 站点访问被拒绝。<br>403.9 - 用户数过多。<br>403.10 - 配置无效。<br>403.11 - 密码更改。<br>403.12 - 拒绝访问映射表。<br>403.13 - 客户端证书被吊销。<br>403.14 - 拒绝目录列表。<br>403.15 - 超出客户端访问许可。<br>403.16 - 客户端证书不受信任或无效。<br>403.17 - 客户端证书已过期或尚未生效。<br>403.18 - 在当前的应用程序池中不能执行所请求的 URL。这个错误代码为 IIS 6.0 所专用。<br>403.19 - 不能为这个应用程序池中的客户端执行 CGI。这个错误代码为 IIS 6.0 所专用。<br>403.20 - Passport 登录失败。这个错误代码为 IIS 6.0 所专用。<br>404 - 未找到。<br>404.0 -（无） – 没有找到文件或目录。<br>404.1 - 无法在所请求的端口上访问 Web 站点。<br>404.2 - Web 服务扩展锁定策略阻止本请求。<br>404.3 - MIME 映射策略阻止本请求。<br>405 - 用来访问本页面的 HTTP 谓词不被允许（方法不被允许）<br>406 - 客户端浏览器不接受所请求页面的 MIME 类型。<br>407 - 要求进行代理身份验证。<br>412 - 前提条件失败。<br>413 – 请求实体太大。<br>414 - 请求 URI 太长。<br>415 – 不支持的媒体类型。<br>416 – 所请求的范围无法满足。<br>417 – 执行失败。<br>423 – 锁定的错误。</p>
+<h3 id="5xx-服务器错误"><a href="#5xx-服务器错误" class="headerlink" title="5xx - 服务器错误"></a>5xx - 服务器错误</h3><p>服务器由于遇到错误而不能完成该请求。</p>
+<p>500 - 内部服务器错误。<br>500.12 - 应用程序正忙于在 Web 服务器上重新启动。<br>500.13 - Web 服务器太忙。<br>500.15 - 不允许直接请求 Global.asa。<br>500.16 – UNC 授权凭据不正确。这个错误代码为 IIS 6.0 所专用。<br>500.18 – URL 授权存储不能打开。这个错误代码为 IIS 6.0 所专用。<br>500.100 - 内部 ASP 错误。<br>501 - 页眉值指定了未实现的配置。<br>502 - Web 服务器用作网关或代理服务器时收到了无效响应。<br>502.1 - CGI 应用程序超时。<br>502.2 - CGI 应用程序出错。application.<br>503 - 服务不可用。这个错误代码为 IIS 6.0 所专用。<br>504 - 网关超时。<br>505 - HTTP 版本不受支持。</p>
+
+            </div>
+
+            
+                <div class="post-copyright-info">
+                    
+<div class="article-copyright-info-container">
+    <ul class="copyright-info-content">
+        <li class="post-title">
+            <span class="type">本文标题</span>：<span class="content">WEB常见错误代码</span>
+        </li>
+        <li class="post-author">
+            <span class="type">本文作者</span>：<span class="content">ZH</span>
+        </li>
+        <li class="post-time">
+            <span class="type">创建时间</span>：<span class="content">2021-09-16 21:45:11</span>
+        </li>
+        <li class="post-link">
+            <span class="type">本文链接</span>：<span class="content">2021/09/16/WEB常见错误代码/</span>
+        </li>
+        <li class="post-license">
+            <span class="type">版权声明</span>：<span class="content">本博客所有文章除特别声明外，均采用 <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">BY-NC-SA</a> 许可协议。转载请注明出处！</span>
+        </li>
+    </ul>
+    <div class="copy-copyright-info flex-center tooltip" data-content="复制版权信息" data-offset-y="-2px">
+        <i class="fa-solid fa-copy"></i>
+    </div>
+</div>
+
+                </div>
+            
+
+            
+                <ul class="post-tags-box">
+                    
+                        <li class="tag-item">
+                            <a href="/hexo/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8%E8%BF%90%E7%BB%B4/">#服务器运维</a>&nbsp;
+                        </li>
+                    
+                </ul>
+            
+
+            
+                <div class="article-nav">
+                    
+                        <div class="article-prev">
+                            <a class="prev"
+                               rel="prev"
+                               href="/hexo/2021/09/19/Linux%E7%B3%BB%E7%BB%9Fsystemctl%E8%B5%84%E6%96%99/"
+                            >
+                            <span class="left arrow-icon flex-center">
+                              <i class="fas fa-chevron-left"></i>
+                            </span>
+                                <span class="title flex-center">
+                                <span class="post-nav-title-item">Linux系统systemctl资料</span>
+                                <span class="post-nav-item">上一篇</span>
+                            </span>
+                            </a>
+                        </div>
+                    
+                    
+                        <div class="article-next">
+                            <a class="next"
+                               rel="next"
+                               href="/hexo/2021/09/16/ZH%E6%96%87%E4%BB%B6%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%9B%B4%E6%8D%A2%E5%AD%98%E5%82%A8%E4%BB%8B%E8%B4%A8/"
+                            >
+                            <span class="title flex-center">
+                                <span class="post-nav-title-item">ZH文件服务器更换存储介质</span>
+                                <span class="post-nav-item">下一篇</span>
+                            </span>
+                                <span class="right arrow-icon flex-center">
+                              <i class="fas fa-chevron-right"></i>
+                            </span>
+                            </a>
+                        </div>
+                    
+                </div>
+            
+
+            
+        </div>
+
+        
+            <div class="toc-content-container">
+                <div class="post-toc-wrap">
+    <div class="post-toc">
+        <ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1xx-%E4%BF%A1%E6%81%AF%E6%8F%90%E7%A4%BA"><span class="nav-number">1.</span> <span class="nav-text">1xx - 信息提示</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2xx-%E6%88%90%E5%8A%9F"><span class="nav-number">2.</span> <span class="nav-text">2xx - 成功</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3xx-%E9%87%8D%E5%AE%9A%E5%90%91"><span class="nav-number">3.</span> <span class="nav-text">3xx - 重定向</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4xx-%E5%AE%A2%E6%88%B7%E7%AB%AF%E9%94%99%E8%AF%AF"><span class="nav-number">4.</span> <span class="nav-text">4xx - 客户端错误</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5xx-%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%94%99%E8%AF%AF"><span class="nav-number">5.</span> <span class="nav-text">5xx - 服务器错误</span></a></li></ol>
+    </div>
+</div>
+
+            </div>
+        
+    </div>
+</div>
+
+
+                
+            </div>
+
+        </div>
+
+        <div class="page-main-content-bottom">
+            
+<footer class="footer">
+    <div class="info-container">
+        <div class="copyright-info info-item">
+            &copy;
+            
+                <span>2021</span> -
+            
+            2023
+            
+                &nbsp;<i class="fas fa-heart icon-animate"></i>
+                &nbsp;<a href="/">ZH</a>
+            
+        </div>
+        
+        <div class="theme-info info-item">
+            由 <a target="_blank" href="https://hexo.io">Hexo</a> 驱动&nbsp;|&nbsp;主题&nbsp;<a class="theme-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep v3.6.1</a>
+        </div>
+        
+        
+    </div>
+</footer>
+
+        </div>
+    </div>
+
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="tools-item flex-center toggle-show-toc">
+                <i class="fas fa-list"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+    </ul>
+</div>
+
+        </div>
+    
+
+    <div class="right-bottom-side-tools">
+        <div class="side-tools-container">
+    <ul class="side-tools-list">
+        <li class="tools-item tool-font-adjust-plus flex-center">
+            <i class="fas fa-search-plus"></i>
+        </li>
+
+        <li class="tools-item tool-font-adjust-minus flex-center">
+            <i class="fas fa-search-minus"></i>
+        </li>
+
+        <li class="tools-item tool-dark-light-toggle flex-center">
+            <i class="fas fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+
+        <li class="tools-item tool-scroll-to-bottom flex-center">
+            <i class="fas fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="exposed-tools-list">
+        <li class="tools-item tool-toggle-show flex-center">
+            <i class="fas fa-cog fa-spin"></i>
+        </li>
+        
+            <li class="tools-item tool-scroll-to-top flex-center">
+                <i class="arrow-up fas fa-arrow-up"></i>
+                <span class="percent"></span>
+            </li>
+        
+    </ul>
+</div>
+
+    </div>
+
+    <div class="zoom-in-image-mask">
+    <img class="zoom-in-image">
+</div>
+
+
+    
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fas fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="搜索..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="close-popup-btn">
+                <i class="fas fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fas fa-spinner fa-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+</main>
+
+
+
+
+<script src="/hexo/js/utils.js"></script>
+
+<script src="/hexo/js/main.js"></script>
+
+<script src="/hexo/js/header-shrink.js"></script>
+
+<script src="/hexo/js/back2top.js"></script>
+
+<script src="/hexo/js/dark-light-toggle.js"></script>
+
+
+
+
+
+    
+<script src="/hexo/js/local-search.js"></script>
+
+
+
+
+    
+<script src="/hexo/js/code-block.js"></script>
+
+
+
+
+    
+<script src="/hexo/js/lazyload.js"></script>
+
+
+
+<div class="post-scripts">
+    
+        
+<script src="/hexo/js/post-helper.js"></script>
+
+        
+            
+<script src="/hexo/js/libs/anime.min.js"></script>
+
+        
+        
+            
+<script src="/hexo/js/toc.js"></script>
+
+        
+    
+</div>
+
+
+
+</body>
+</html>

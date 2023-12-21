@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>XB小报 - 帮助-游戏</title>
+	  <meta name="content-type" content="text/html; charset=utf-8">
+    <meta http-equlv="Content-Type" content="text/html;charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+    <link rel="stylesheet" type="text/css" href="../notie.css">
+    </head>
+    <body>
+    <div style="text-align:center;font-size:60px;font-weight:900">
+    游戏
+       <hr />
+       <div style="text-align:left;font-size:20px;font-weight:100">
+       本页帮助包含：<a href="#2048">2048游戏</a>，<a href="#connect">连线游戏TRACE</a>，<a href="#fanpai">匹配记忆游戏</a>，<a href="#colorful">五彩连珠游戏</a>，<a href="#hextris">Hextris游戏</a>，<a href="#mutiply">乘法小游戏</a>，<a href="#password">密码生成器</a>
+       <hr />
+      <div id="2048">
+      2048游戏<br>
+      来自开源<a href="https://github.com/uberspot/2048-android/">2048</a>项目，由ZH进行汉化，开源许可证<a href="https://github.com/uberspot/2048-android/blob/master/LICENSE">MIT</a><br>
+      玩法：上下左右扒了扒了，扒了出来2048就赢了，不能再扒了就输了（设置里有好东西）<br>
+      <img width="350" src="img/2048.jpg" style="vertical-align:middle"/><br>
+       </div>
+       <hr />
+      <div id="connect">
+      连线游戏TRACE<br>
+      来自网络搜集而来<br>
+      玩法：刚进游戏有介绍，这里不再赘述<br>
+      <img width="350" src="img/connect.jpg" style="vertical-align:middle"/><br>
+       </div>
+       <hr />
+      <div id="fanpai">
+       匹配记忆游戏<br>
+       来自网络搜集而来<br>
+       玩法：一次选择翻开两个牌子，相同则消除，不同则合上，直到全部消完为游戏结束<br>
+       <img width="350" src="img/fanpai.jpg" style="vertical-align:middle"/><br>
+      </div>
+       <hr />
+      <div id="colorful">
+      五彩连珠游戏<br>
+      来自网络搜集而来<br>
+      玩法：先点击彩珠，再点击空位，确保彩珠与空位之间有路可走，彩珠连成5个（直的或斜的）即可消除，彩珠占满格子则为游戏失败<br>
+      <img width="350" src="img/colorful.jpg" style="vertical-align:middle"/><br>
+       </div>
+       <hr />
+       <div id="hextris">
+      Hextris游戏<br>
+      来自开源<a href="https://github.com/Hextris/hextris">Hextris</a>项目，开源许可证<a href="https://www.gnu.org/licenses">GPL-3.0</a><br>
+      玩法：Hextris的目标是阻止块离开外部灰色六边形的内部，按左右半屏幕键旋转六角形，清除3个或更多相同颜色的块，清除块并获得分数。<br>
+      <img width="350" src="img/hextris.jpg" style="vertical-align:middle"/><br>
+       </div>
+       <hr />
+       <div id="mutiply">
+       乘法小游戏<br>
+       来自网络搜集而来<br>
+       玩法：点击两个数字进行相乘，得数与正在下落的数字块相同即可消除数字块，没有失败或胜利条件，可以一直玩~<br>
+       <img width="350" src="img/mutiply.jpg" style="vertical-align:middle"/><br>
+       </div>
+       <hr />
+      <div id="password">
+      密码生成器<br>
+       来自网络搜集而来<br>
+       玩法：看看就懂（好像不算游戏，但我觉得是），生成随机密码后点按密码即可复制<br>
+      <img width="350" src="img/password.jpg" style="vertical-align:middle"/><br>
+       </div>
+       <hr />
+       <div style="text-align:center;font-size:18px;font-weight:1">
+<a href="http://zhanghe56.m.icoc.me" target=_blank>XB小报官方网站</a><p>
+based on html<img width="25" height="25" src="../gitee.jpg" style="vertical-align:middle"/><p>
+powered by<button type="button" onclick="realFunction()"class="button2">
+ZH's team
+</button><p>
+<p id="actually" style="display:none">(其实只有ZH一个人)<button type="button" onclick="closeFunction()" >
+收起
+</button></p>
+白色太难看？来，<button onclick="setColor()"class="button2">给点颜色</button>
+<div id="results"></div><p>
+<script src="../jsallonline.js"></script>
+<script src="../notie.js"></script>
+    <script src="../nightly.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      var Nightly = new Nightly(
+        {
+          classes: [
+            {
+              apply: 'redify',
+              to: '.upper',
+            },
+            {
+              apply: 'greenfy',
+              to: '.lower',
+            },
+          ],
+        },
+        true
+      );
+    </script>
+</body>
+</html>

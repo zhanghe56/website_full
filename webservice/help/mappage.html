@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>XB小报 - 帮助-应用地图</title>
+	  <meta name="content-type" content="text/html; charset=utf-8">
+    <meta http-equlv="Content-Type" content="text/html;charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+    <link rel="stylesheet" type="text/css" href="../notie.css">
+    </head>
+    <body>
+    <div style="text-align:center;font-size:60px;font-weight:900">
+    应用地图
+       <hr />
+       <div style="text-align:left;font-size:20px;font-weight:100">
+       XB小报的一切功能都位于应用地图内（别看主页了，那里没啥玩意），下面是应用地图速览<br>
+       <img src="img/map.gif" style="vertical-align:middle"/><br>
+       <hr />
+       <div style="text-align:center;font-size:18px;font-weight:1">
+<a href="http://zhanghe56.m.icoc.me" target=_blank>XB小报官方网站</a><p>
+based on html<img width="25" height="25" src="../gitee.jpg" style="vertical-align:middle"/><p>
+powered by<button type="button" onclick="realFunction()"class="button2">
+ZH's team
+</button><p>
+<p id="actually" style="display:none">(其实只有ZH一个人)<button type="button" onclick="closeFunction()" >
+收起
+</button></p>
+白色太难看？来，<button onclick="count();setColor()"class="button2">给点颜色</button>
+<div id="results"></div><p>
+<script src="../jsallonline.js"></script>
+<script src="../notie.js"></script>
+    <script src="../nightly.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      var Nightly = new Nightly(
+        {
+          classes: [
+            {
+              apply: 'redify',
+              to: '.upper',
+            },
+            {
+              apply: 'greenfy',
+              to: '.lower',
+            },
+          ],
+        },
+        true
+      );
+    </script>
+</body>
+</html>

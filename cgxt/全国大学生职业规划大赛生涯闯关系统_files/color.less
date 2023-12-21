@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Access-Control-Allow-Origin" content="*" />
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover"
+    />
+    <title></title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      charset="utf-8"
+      href="../styles/global.css"
+    />
+    <link
+      href="https://chsi-zyghds.oss-cn-beijing.aliyuncs.com/zgs_resource/icon/favicon.ico"
+      rel="shortcut icon"
+      type="image/vnd.microsoft.icon"
+    />
+    <script src="https://chsi-zyghds.oss-cn-beijing.aliyuncs.com/zgs_resource/public/career/iconfont.js"></script>
+    <script src="https://chsi-zyghds.oss-cn-beijing.aliyuncs.com/zgs_resource/public/global/global-icons.js"></script>
+
+    <style type="text/css">
+      body {
+        -webkit-font-smoothing: antialiased; /*chrome、safari*/
+        -moz-osx-font-smoothing: grayscale; /*firefox*/
+        font-family: "PingFang SC", "思源黑体CN";
+      }
+
+      @font-face {
+        font-family: "YouSheBiaoTiHei";
+        src: url("https://chsi-zyghds.oss-cn-beijing.aliyuncs.com/zgs_resource/font/YouSheBiaoTiHei-2.ttf")
+          format("opentype");
+        font-display: swap;
+      }
+
+      .app_wrapper {
+        height: 100%;
+      }
+
+      /* TODO 此处修改了Antd全局样式会对 产生较大影响 */
+      div,
+      p,
+      span,
+      i,
+      label {
+        white-space: pre-line;
+        word-break: break-all;
+        overflow-wrap: break-word;
+      }
+      .ant-form-item-label > label {
+        /* font-size: 14px !important; */
+        font-family: PingFangSC-Regular, PingFang SC !important;
+        color: #333333 !important;
+        /*line-height: 20px !important;*/
+      }
+      /*.ant-btn, .ant-btn-primary{
+            width: 112px;
+            height: 42px !important;
+          }*/
+      .ant-input {
+        font-size: 16px !important;
+        font-family: PingFangSC-Regular, PingFang SC;
+        color: #333333 !important;
+        /*line-height: 22px !important;;*/
+
+        /*padding: 8px 6px !important;;*/
+        border: 1px solid rgba(64, 135, 247, 0.18) !important;
+        border-radius: 8px !important;
+      }
+
+      textarea.ant-input {
+        font-size: 16px !important;
+        font-family: PingFangSC-Regular, PingFang SC !important;
+        color: #333333 !important;
+        /*line-height: 22px !important;;*/
+        padding: 16px !important;
+        border: 1px solid rgba(64, 135, 247, 0.18) !important;
+        border-radius: 8px !important;
+        resize: none;
+      }
+      .ant-input::-webkit-input-placeholder,
+      textarea.ant-input::-webkit-input-placeholder {
+        color: #aaaaaa !important;
+      }
+      .ant-input:focus,
+      .ant-input-focused {
+        border: 1px solid rgba(64, 135, 247, 1) !important;
+      }
+
+      @media screen and (max-width: 1380px) {
+        body {
+          white-space: nowrap; /* ul中的内容不换行 */
+          overflow-x: scroll; /* 横向滚动 */
+        }
+        .app_wrapper {
+          width: 1380px;
+        }
+      }
+    </style>
+    <script>
+      window.routerBase = "/";
+    </script>
+    <script>
+      window.publicPath =
+        window.resourceBaseUrl ||
+        "https://chsi-zyghds.oss-cn-beijing.aliyuncs.com/web_static/zgs_resource_pc_2/000045/";
+    </script>
+    <script>
+      //! umi version: 3.5.20
+    </script>
+  </head>
+  <body>
+    <link rel="stylesheet/less" type="text/css" href="/color.less" />
+    <script>
+      window.less = {
+        async: false,
+        env: 'production'
+      };
+    </script>
+    <script type="text/javascript" src="https://chsi-zyghds.oss-cn-beijing.aliyuncs.com/zgs_resource/public/global/less.min.js"></script>
+        
+    <div id="root" class="app_wrapper"></div>
+
+    <script src="https://chsi-zyghds.oss-cn-beijing.aliyuncs.com/zgs_resource/public/global/react.production.min.js"></script>
+    <script src="https://chsi-zyghds.oss-cn-beijing.aliyuncs.com/zgs_resource/public/global/react-dom.production.min.js"></script>
+    <script src="https://chsi-zyghds.oss-cn-beijing.aliyuncs.com/web_static/zgs_resource_pc_2/000045/umi.4a5fa0c8.js"></script>
+  </body>
+</html>

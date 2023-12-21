@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="Hexo Theme Keep">
+    <meta name="description" content="Hexo Theme Keep">
+    <meta name="author" content="ZH">
+    
+    <title>
+        
+        ZH&#39;s blog
+    </title>
+    
+<link rel="stylesheet" href="/hexo/css/style.css">
+
+    <link rel="shortcut icon" href="/hexo/images/logo.png">
+    
+<link rel="stylesheet" href="/hexo/font/css/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/hexo/font/css/regular.min.css">
+
+    
+<link rel="stylesheet" href="/hexo/font/css/solid.min.css">
+
+    
+<link rel="stylesheet" href="/hexo/font/css/brands.min.css">
+
+    <script id="hexo-configurations">
+    let KEEP = window.KEEP || {}
+    KEEP.hexo_config = {"hostname":"47.115.214.72","root":"/hexo/","language":"zh-CN","path":"search.xml"}
+    KEEP.theme_config = {"toc":{"enable":true,"number":true,"expand_all":true,"init_open":false},"style":{"primary_color":"#0066cc","logo":"/images/logo.png","favicon":"/images/logo.png","avatar":"/images/header.jpg","font_size":null,"font_family":null,"hover":{"shadow":false,"scale":false},"first_screen":{"enable":true,"header_transparent":false,"background_img":"/hexo/images/bg.svg","description":"我们所经历的每个平凡的日常，也许就是连续发生的奇迹。","font_color":null,"hitokoto":false},"scroll":{"progress_bar":true,"percent":true}},"local_search":{"enable":true,"preload":false},"code_copy":{},"code_block":{"tools":{"enable":true,"style":"default"},"highlight_theme":"default"},"side_tools":{},"pjax":{"enable":false},"lazyload":{"enable":true},"comment":{"enable":false,"use":"valine","valine":{"appid":null,"appkey":null,"server_urls":null,"placeholder":null},"gitalk":{"github_id":null,"github_admins":null,"repository":null,"client_id":null,"client_secret":null,"proxy":null},"twikoo":{"env_id":null,"region":null,"version":"1.6.8"},"waline":{"server_url":null,"reaction":false,"version":2}},"post":{"author_label":{"enable":true,"auto":true,"custom_label_list":["Trainee","Engineer","Architect"]},"word_count":{"enable":true,"wordcount":true,"min2read":true},"img_align":"left","copyright_info":true},"version":"3.6.1"}
+    KEEP.language_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"}
+    KEEP.language_code_block = {"copy":"复制代码","copied":"已复制","fold":"折叠代码块","folded":"已折叠"}
+    KEEP.language_copy_copyright = {"copy":"复制版权信息","copied":"已复制","title":"原文标题","author":"原文作者","link":"原文链接"}
+  </script>
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+        <span class="scroll-progress-bar"></span>
+    
+
+    
+</div>
+
+
+<main class="page-container">
+
+    
+        
+<div class="first-screen-container flex-center fade-in-down-animation">
+    <div class="content flex-center">
+        
+            <div class="description hitokoto">
+                
+                    <div class="desc-item">我们所经历的每个平凡的日常，也许就是连续发生的奇迹。</div>
+                
+            </div>
+        
+        
+        
+    </div>
+</div>
+
+    
+
+    <div class="page-main-content is-home">
+
+        <div class="page-main-content-top">
+            
+<header class="header-wrapper">
+
+    <div class="header-content has-first-screen">
+        <div class="left">
+            
+                <a class="logo-image" href="/">
+                    <img src="/hexo/images/logo.png">
+                </a>
+            
+            <a class="logo-title" href="/">
+               ZH&#39;s blog
+            </a>
+        </div>
+
+        <div class="right">
+            <div class="pc">
+                <ul class="menu-list">
+                    
+                        <li class="menu-item">
+                            <a class="active"
+                               href="/hexo/"
+                            >
+                                首页
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/hexo/archives"
+                            >
+                                归档
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/hexo/tags"
+                            >
+                                标签
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/hexo/categories"
+                            >
+                                分类
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/hexo/about"
+                            >
+                                关于
+                            </a>
+                        </li>
+                    
+                    
+                        <li class="menu-item search search-popup-trigger">
+                            <i class="fas fa-search"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fas fa-search"></i></div>
+                
+                <div class="icon-item menu-bar">
+                    <div class="menu-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-drawer">
+        <ul class="drawer-menu-list">
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class="active"
+                       href="/hexo/">首页</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/hexo/archives">归档</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/hexo/tags">标签</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/hexo/categories">分类</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/hexo/about">关于</a>
+                </li>
+            
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="page-main-content-middle">
+
+            <div class="main-content">
+
+                
+                    <div class="home-content-container fade-in-down-animation">
+    <ul class="home-article-list">
+        
+            <li class="home-article-item">
+
+                
+                    <i class="fas fa-thumbtack top-icon"></i>
+                
+
+                <h3 class="home-article-title">
+                    <a href="/hexo/2023/01/07/XB%E5%B0%8F%E6%8A%A5%E5%A1%AB%E5%9D%91%E5%8F%8A%E6%9C%AA%E6%9D%A5%E5%B1%95%E6%9C%9B/">
+                        XB小报填坑及未来展望
+                    </a>
+                </h3>
+
+                <div class="home-article-content keep-markdown-body">
+                    
+                        关于博客这几天突然（又）想起来有个博客，换了套主题还调试了好一会儿，主页背景就是出不来…罢了，还是老老实实的写markdown吧。
+关于XB小报的近况XB小报在10.17更新之后就没更新过，放假了，填坑与新功能开发也开始了。
+2.5版本发布2.5版本...
+                    
+                </div>
+
+                <div class="home-article-meta-info-container">
+    <div class="home-article-meta-info">
+        <span>
+            <i class="fas fa-history"></i>&nbsp;
+            <span class="home-article-date" data-updated="Sat Jan 07 2023 16:26:09 GMT+0800">
+                2023-01-07
+            </span>
+        </span>
+        
+        
+    </div>
+
+    <a class="read-more" href="/hexo/2023/01/07/XB%E5%B0%8F%E6%8A%A5%E5%A1%AB%E5%9D%91%E5%8F%8A%E6%9C%AA%E6%9D%A5%E5%B1%95%E6%9C%9B/">阅读全文&nbsp;<i class="fas fa-angle-right"></i></a>
+</div>
+
+            </li>
+        
+            <li class="home-article-item">
+
+                
+
+                <h3 class="home-article-title">
+                    <a href="/hexo/2023/02/04/SD%E5%8D%A1%E5%B8%B8%E7%94%A8%E6%8A%80%E6%9C%AF%E4%BF%A1%E6%81%AF/">
+                        SD卡常用技术信息
+                    </a>
+                </h3>
+
+                <div class="home-article-content keep-markdown-body">
+                    
+                        速率等级根据数据传输速度，SD有不同的等级。
+“X”表示法（SD1.0规范，现已不用）它是按CD-ROM的150kB&#x2F;s为1倍速的速率计算方法来计算的。基本上，它们能够比标准CD-ROM的传输速度快6倍(900kB&#x2F;秒)，而高速的...
+                    
+                </div>
+
+                <div class="home-article-meta-info-container">
+    <div class="home-article-meta-info">
+        <span>
+            <i class="fas fa-history"></i>&nbsp;
+            <span class="home-article-date" data-updated="Sat Feb 04 2023 23:14:46 GMT+0800">
+                2023-02-04
+            </span>
+        </span>
+        
+        
+    </div>
+
+    <a class="read-more" href="/hexo/2023/02/04/SD%E5%8D%A1%E5%B8%B8%E7%94%A8%E6%8A%80%E6%9C%AF%E4%BF%A1%E6%81%AF/">阅读全文&nbsp;<i class="fas fa-angle-right"></i></a>
+</div>
+
+            </li>
+        
+            <li class="home-article-item">
+
+                
+
+                <h3 class="home-article-title">
+                    <a href="/hexo/2023/01/07/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4-2021-9-16%E6%9B%B4%E6%96%B0/">
+                        常用命令-2023.2.3更新
+                    </a>
+                </h3>
+
+                <div class="home-article-content keep-markdown-body">
+                    
+                        1ps aux    显示进程信息
+1ps -elf -e    更详细的进程信息
+
+gunicorn -w 4 -b 127.0.0.1:5000 index:app    智慧物联服务（已经停用）
+1/etc/motd    登录问候语
+1net...
+                    
+                </div>
+
+                <div class="home-article-meta-info-container">
+    <div class="home-article-meta-info">
+        <span>
+            <i class="fas fa-history"></i>&nbsp;
+            <span class="home-article-date" data-updated="Wed Feb 08 2023 23:28:24 GMT+0800">
+                2023-02-08
+            </span>
+        </span>
+        
+        
+    </div>
+
+    <a class="read-more" href="/hexo/2023/01/07/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4-2021-9-16%E6%9B%B4%E6%96%B0/">阅读全文&nbsp;<i class="fas fa-angle-right"></i></a>
+</div>
+
+            </li>
+        
+            <li class="home-article-item">
+
+                
+
+                <h3 class="home-article-title">
+                    <a href="/hexo/2023/01/07/%E4%B8%80%E4%BA%9B%E7%A2%8E%E7%A2%8E%E5%BF%B5/">
+                        一些碎碎念
+                    </a>
+                </h3>
+
+                <div class="home-article-content keep-markdown-body">
+                    
+                        背景图的乌龙昨天写完2023展望，执行过
+1hexo generate
+之后，传上服务器突然发现主页的背景图显示正常了…啊这…
+
+                    
+                </div>
+
+                <div class="home-article-meta-info-container">
+    <div class="home-article-meta-info">
+        <span>
+            <i class="fas fa-history"></i>&nbsp;
+            <span class="home-article-date" data-updated="Sat Jan 07 2023 16:33:42 GMT+0800">
+                2023-01-07
+            </span>
+        </span>
+        
+        
+    </div>
+
+    <a class="read-more" href="/hexo/2023/01/07/%E4%B8%80%E4%BA%9B%E7%A2%8E%E7%A2%8E%E5%BF%B5/">阅读全文&nbsp;<i class="fas fa-angle-right"></i></a>
+</div>
+
+            </li>
+        
+            <li class="home-article-item">
+
+                
+
+                <h3 class="home-article-title">
+                    <a href="/hexo/2022/01/15/2022%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90/">
+                        2022新年快乐
+                    </a>
+                </h3>
+
+                <div class="home-article-content keep-markdown-body">
+                    
+                        2022到了，把hexo老博客翻出来改改标题啥的，不能让它一直吃灰对不~顺便说一下XB小报2022年度的更新flag
+XB小报的更新展望如你所见，这个页面变成了ZH的blog，但是XB小报内容该说也得说。新的一年，我们计划了以下几个目标：
+12345...
+                    
+                </div>
+
+                <div class="home-article-meta-info-container">
+    <div class="home-article-meta-info">
+        <span>
+            <i class="fas fa-history"></i>&nbsp;
+            <span class="home-article-date" data-updated="Sat Jan 15 2022 16:47:43 GMT+0800">
+                2022-01-15
+            </span>
+        </span>
+        
+        
+    </div>
+
+    <a class="read-more" href="/hexo/2022/01/15/2022%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90/">阅读全文&nbsp;<i class="fas fa-angle-right"></i></a>
+</div>
+
+            </li>
+        
+            <li class="home-article-item">
+
+                
+
+                <h3 class="home-article-title">
+                    <a href="/hexo/2021/09/19/Linux%E7%B3%BB%E7%BB%9Fsystemctl%E8%B5%84%E6%96%99/">
+                        Linux系统systemctl资料
+                    </a>
+                </h3>
+
+                <div class="home-article-content keep-markdown-body">
+                    
+                        一个例子1234567891011121314[Unit]Description=nginx - high performance web serverDocumentation=http://nginx.org/en/docs/After=netw...
+                    
+                </div>
+
+                <div class="home-article-meta-info-container">
+    <div class="home-article-meta-info">
+        <span>
+            <i class="fas fa-history"></i>&nbsp;
+            <span class="home-article-date" data-updated="Sun Sep 19 2021 19:18:29 GMT+0800">
+                2021-09-19
+            </span>
+        </span>
+        
+        
+    </div>
+
+    <a class="read-more" href="/hexo/2021/09/19/Linux%E7%B3%BB%E7%BB%9Fsystemctl%E8%B5%84%E6%96%99/">阅读全文&nbsp;<i class="fas fa-angle-right"></i></a>
+</div>
+
+            </li>
+        
+            <li class="home-article-item">
+
+                
+
+                <h3 class="home-article-title">
+                    <a href="/hexo/2021/09/16/WEB%E5%B8%B8%E8%A7%81%E9%94%99%E8%AF%AF%E4%BB%A3%E7%A0%81/">
+                        WEB常见错误代码
+                    </a>
+                </h3>
+
+                <div class="home-article-content keep-markdown-body">
+                    
+                        1xx - 信息提示这些状态代码表示临时的响应。客户端在收到常规响应之前，应准备接收一个或多个 1xx 响应。
+100 - 继续。101 - 切换协议。
+2xx - 成功这类状态代码表明服务器成功地接受了客户端请求。
+200 - 确定。客户端请求已成...
+                    
+                </div>
+
+                <div class="home-article-meta-info-container">
+    <div class="home-article-meta-info">
+        <span>
+            <i class="fas fa-history"></i>&nbsp;
+            <span class="home-article-date" data-updated="Thu Sep 16 2021 21:50:21 GMT+0800">
+                2021-09-16
+            </span>
+        </span>
+        
+        
+    </div>
+
+    <a class="read-more" href="/hexo/2021/09/16/WEB%E5%B8%B8%E8%A7%81%E9%94%99%E8%AF%AF%E4%BB%A3%E7%A0%81/">阅读全文&nbsp;<i class="fas fa-angle-right"></i></a>
+</div>
+
+            </li>
+        
+            <li class="home-article-item">
+
+                
+
+                <h3 class="home-article-title">
+                    <a href="/hexo/2021/09/16/ZH%E6%96%87%E4%BB%B6%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%9B%B4%E6%8D%A2%E5%AD%98%E5%82%A8%E4%BB%8B%E8%B4%A8/">
+                        ZH文件服务器更换存储介质
+                    </a>
+                </h3>
+
+                <div class="home-article-content keep-markdown-body">
+                    
+                        今天，经过一下午的维护，我们将ZH文件服务器存储目录从系统盘中剥离，单独存放在KINGSTON的U盘中。
+须知更换存储介质后，网页端传输完成后建立索引事件将会变长，望理解。
+
+                    
+                </div>
+
+                <div class="home-article-meta-info-container">
+    <div class="home-article-meta-info">
+        <span>
+            <i class="fas fa-history"></i>&nbsp;
+            <span class="home-article-date" data-updated="Thu Sep 16 2021 21:49:16 GMT+0800">
+                2021-09-16
+            </span>
+        </span>
+        
+        
+    </div>
+
+    <a class="read-more" href="/hexo/2021/09/16/ZH%E6%96%87%E4%BB%B6%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%9B%B4%E6%8D%A2%E5%AD%98%E5%82%A8%E4%BB%8B%E8%B4%A8/">阅读全文&nbsp;<i class="fas fa-angle-right"></i></a>
+</div>
+
+            </li>
+        
+            <li class="home-article-item">
+
+                
+
+                <h3 class="home-article-title">
+                    <a href="/hexo/2021/09/12/hello-world/">
+                        Hello World
+                    </a>
+                </h3>
+
+                <div class="home-article-content keep-markdown-body">
+                    
+                        Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, yo...
+                    
+                </div>
+
+                <div class="home-article-meta-info-container">
+    <div class="home-article-meta-info">
+        <span>
+            <i class="fas fa-history"></i>&nbsp;
+            <span class="home-article-date" data-updated="Thu Sep 16 2021 21:50:14 GMT+0800">
+                2021-09-16
+            </span>
+        </span>
+        
+        
+    </div>
+
+    <a class="read-more" href="/hexo/2021/09/12/hello-world/">阅读全文&nbsp;<i class="fas fa-angle-right"></i></a>
+</div>
+
+            </li>
+        
+            <li class="home-article-item">
+
+                
+
+                <h3 class="home-article-title">
+                    <a href="/hexo/2021/09/10/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/">
+                        第一篇文章
+                    </a>
+                </h3>
+
+                <div class="home-article-content keep-markdown-body">
+                    
+                        这是除了系统自带的hello world以外ZH的第一篇文章
+我是大标题我是大标题下面的内容
+我是中标题我是中标题下面的内容
+1$ i am code
+                    
+                </div>
+
+                <div class="home-article-meta-info-container">
+    <div class="home-article-meta-info">
+        <span>
+            <i class="fas fa-history"></i>&nbsp;
+            <span class="home-article-date" data-updated="Thu Sep 16 2021 21:50:39 GMT+0800">
+                2021-09-16
+            </span>
+        </span>
+        
+        
+    </div>
+
+    <a class="read-more" href="/hexo/2021/09/10/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/">阅读全文&nbsp;<i class="fas fa-angle-right"></i></a>
+</div>
+
+            </li>
+        
+    </ul>
+
+    <div class="home-paginator">
+        <div class="paginator">
+    
+
+    
+</div>
+
+    </div>
+</div>
+
+
+                
+            </div>
+
+        </div>
+
+        <div class="page-main-content-bottom">
+            
+<footer class="footer">
+    <div class="info-container">
+        <div class="copyright-info info-item">
+            &copy;
+            
+                <span>2021</span> -
+            
+            2023
+            
+                &nbsp;<i class="fas fa-heart icon-animate"></i>
+                &nbsp;<a href="/">ZH</a>
+            
+        </div>
+        
+        <div class="theme-info info-item">
+            由 <a target="_blank" href="https://hexo.io">Hexo</a> 驱动&nbsp;|&nbsp;主题&nbsp;<a class="theme-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep v3.6.1</a>
+        </div>
+        
+        
+    </div>
+</footer>
+
+        </div>
+    </div>
+
+    
+
+    <div class="right-bottom-side-tools">
+        <div class="side-tools-container">
+    <ul class="side-tools-list">
+        <li class="tools-item tool-font-adjust-plus flex-center">
+            <i class="fas fa-search-plus"></i>
+        </li>
+
+        <li class="tools-item tool-font-adjust-minus flex-center">
+            <i class="fas fa-search-minus"></i>
+        </li>
+
+        <li class="tools-item tool-dark-light-toggle flex-center">
+            <i class="fas fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+
+        <li class="tools-item tool-scroll-to-bottom flex-center">
+            <i class="fas fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="exposed-tools-list">
+        <li class="tools-item tool-toggle-show flex-center">
+            <i class="fas fa-cog fa-spin"></i>
+        </li>
+        
+            <li class="tools-item tool-scroll-to-top flex-center">
+                <i class="arrow-up fas fa-arrow-up"></i>
+                <span class="percent"></span>
+            </li>
+        
+    </ul>
+</div>
+
+    </div>
+
+    <div class="zoom-in-image-mask">
+    <img class="zoom-in-image">
+</div>
+
+
+    
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fas fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="搜索..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="close-popup-btn">
+                <i class="fas fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fas fa-spinner fa-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+</main>
+
+
+
+
+
+<script src="/hexo/js/utils.js"></script>
+
+<script src="/hexo/js/main.js"></script>
+
+<script src="/hexo/js/header-shrink.js"></script>
+
+<script src="/hexo/js/back2top.js"></script>
+
+<script src="/hexo/js/dark-light-toggle.js"></script>
+
+
+
+
+
+    
+<script src="/hexo/js/local-search.js"></script>
+
+
+
+
+    
+<script src="/hexo/js/code-block.js"></script>
+
+
+
+
+    
+<script src="/hexo/js/lazyload.js"></script>
+
+
+
+<div class="post-scripts">
+    
+</div>
+
+
+
+</body>
+</html>

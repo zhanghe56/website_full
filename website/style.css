@@ -1,0 +1,25 @@
+        .button1 {
+            -webkit-transition-duration: 0.4s;
+            transition-duration: 0.4s;
+            padding: 8px 16px;
+            text-align: center;
+            background-color: #3DDB84;
+            color: black;
+            border: 2px solid #3DDB84;
+            border-radius:5px;
+            font-size:20px;
+        }
+                .button2 {
+            -webkit-transition-duration: 0.4s;
+            transition-duration: 0.4s;
+            padding: 4px 8px;
+            text-align: center;
+            background-color: #3DDB84;
+            color: black;
+            border: 2px solid #FFFFFF;
+            border-radius:5px;
+            font-size:15px;
+        }
+        .serif{
+font-family:Arial,Verdana,Sans-serif
+}

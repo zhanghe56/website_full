@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/hexo/2021/09/12/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+      <categories>
+        <category>系统自带</category>
+      </categories>
+      <tags>
+        <tag>测试</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>第一篇文章</title>
+    <url>/hexo/2021/09/10/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+    <content><![CDATA[<p>这是除了系统自带的hello world以外ZH的第一篇文章</p>
+<h2 id="我是大标题"><a href="#我是大标题" class="headerlink" title="我是大标题"></a>我是大标题</h2><p>我是大标题下面的内容</p>
+<h3 id="我是中标题"><a href="#我是中标题" class="headerlink" title="我是中标题"></a>我是中标题</h3><p>我是中标题下面的内容</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ i am code</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>ZH碎碎念</category>
+      </categories>
+      <tags>
+        <tag>测试</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>WEB常见错误代码</title>
+    <url>/hexo/2021/09/16/WEB%E5%B8%B8%E8%A7%81%E9%94%99%E8%AF%AF%E4%BB%A3%E7%A0%81/</url>
+    <content><![CDATA[<h3 id="1xx-信息提示"><a href="#1xx-信息提示" class="headerlink" title="1xx - 信息提示"></a>1xx - 信息提示</h3><p>这些状态代码表示临时的响应。客户端在收到常规响应之前，应准备接收一个或多个 1xx 响应。</p>
+<p>100 - 继续。<br>101 - 切换协议。</p>
+<h3 id="2xx-成功"><a href="#2xx-成功" class="headerlink" title="2xx - 成功"></a>2xx - 成功</h3><p>这类状态代码表明服务器成功地接受了客户端请求。</p>
+<p>200 - 确定。客户端请求已成功。<br>201 - 已创建。<br>202 - 已接受。<br>203 - 非权威性信息。<br>204 - 无内容。<br>205 - 重置内容。<br>206 - 部分内容。</p>
+<h3 id="3xx-重定向"><a href="#3xx-重定向" class="headerlink" title="3xx - 重定向"></a>3xx - 重定向</h3><p>客户端浏览器必须采取更多操作来实现请求。例如，浏览器可能不得不请求服务器上的不同的页面，或通过代理服务器重复该请求。</p>
+<p>301 - 对象已永久移走，即永久重定向。<br>302 - 对象已临时移动。<br>304 - 未修改。<br>307 - 临时重定向。</p>
+<h3 id="4xx-客户端错误"><a href="#4xx-客户端错误" class="headerlink" title="4xx - 客户端错误"></a>4xx - 客户端错误</h3><p>发生错误，客户端似乎有问题。例如，客户端请求不存在的页面，客户端未提供有效的身份验证信息。 </p>
+<p>400 - 错误的请求。<br>401 - 访问被拒绝。IIS 定义了许多不同的 401 错误，它们指明更为具体的错误原因。这些具体的错误代码在浏览器中显示，但不在 IIS 日志中显示：<br>401.1 - 登录失败。<br>401.2 - 服务器配置导致登录失败。<br>401.3 - 由于 ACL 对资源的限制而未获得授权。<br>401.4 - 筛选器授权失败。<br>401.5 - ISAPI/CGI 应用程序授权失败。<br>401.7 – 访问被 Web 服务器上的 URL 授权策略拒绝。这个错误代码为 IIS 6.0 所专用。<br>403 - 禁止访问：IIS 定义了许多不同的 403 错误，它们指明更为具体的错误原因：<br>403.1 - 执行访问被禁止。<br>403.2 - 读访问被禁止。<br>403.3 - 写访问被禁止。<br>403.4 - 要求 SSL。<br>403.5 - 要求 SSL 128。<br>403.6 - IP 地址被拒绝。<br>403.7 - 要求客户端证书。<br>403.8 - 站点访问被拒绝。<br>403.9 - 用户数过多。<br>403.10 - 配置无效。<br>403.11 - 密码更改。<br>403.12 - 拒绝访问映射表。<br>403.13 - 客户端证书被吊销。<br>403.14 - 拒绝目录列表。<br>403.15 - 超出客户端访问许可。<br>403.16 - 客户端证书不受信任或无效。<br>403.17 - 客户端证书已过期或尚未生效。<br>403.18 - 在当前的应用程序池中不能执行所请求的 URL。这个错误代码为 IIS 6.0 所专用。<br>403.19 - 不能为这个应用程序池中的客户端执行 CGI。这个错误代码为 IIS 6.0 所专用。<br>403.20 - Passport 登录失败。这个错误代码为 IIS 6.0 所专用。<br>404 - 未找到。<br>404.0 -（无） – 没有找到文件或目录。<br>404.1 - 无法在所请求的端口上访问 Web 站点。<br>404.2 - Web 服务扩展锁定策略阻止本请求。<br>404.3 - MIME 映射策略阻止本请求。<br>405 - 用来访问本页面的 HTTP 谓词不被允许（方法不被允许）<br>406 - 客户端浏览器不接受所请求页面的 MIME 类型。<br>407 - 要求进行代理身份验证。<br>412 - 前提条件失败。<br>413 – 请求实体太大。<br>414 - 请求 URI 太长。<br>415 – 不支持的媒体类型。<br>416 – 所请求的范围无法满足。<br>417 – 执行失败。<br>423 – 锁定的错误。</p>
+<h3 id="5xx-服务器错误"><a href="#5xx-服务器错误" class="headerlink" title="5xx - 服务器错误"></a>5xx - 服务器错误</h3><p>服务器由于遇到错误而不能完成该请求。</p>
+<p>500 - 内部服务器错误。<br>500.12 - 应用程序正忙于在 Web 服务器上重新启动。<br>500.13 - Web 服务器太忙。<br>500.15 - 不允许直接请求 Global.asa。<br>500.16 – UNC 授权凭据不正确。这个错误代码为 IIS 6.0 所专用。<br>500.18 – URL 授权存储不能打开。这个错误代码为 IIS 6.0 所专用。<br>500.100 - 内部 ASP 错误。<br>501 - 页眉值指定了未实现的配置。<br>502 - Web 服务器用作网关或代理服务器时收到了无效响应。<br>502.1 - CGI 应用程序超时。<br>502.2 - CGI 应用程序出错。application.<br>503 - 服务不可用。这个错误代码为 IIS 6.0 所专用。<br>504 - 网关超时。<br>505 - HTTP 版本不受支持。</p>
+]]></content>
+      <categories>
+        <category>资料</category>
+      </categories>
+      <tags>
+        <tag>服务器运维</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ZH文件服务器更换存储介质</title>
+    <url>/hexo/2021/09/16/ZH%E6%96%87%E4%BB%B6%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%9B%B4%E6%8D%A2%E5%AD%98%E5%82%A8%E4%BB%8B%E8%B4%A8/</url>
+    <content><![CDATA[<p>今天，经过一下午的维护，我们将ZH文件服务器存储目录从系统盘中剥离，单独存放在KINGSTON的U盘中。</p>
+<h3 id="须知"><a href="#须知" class="headerlink" title="须知"></a>须知</h3><p>更换存储介质后，网页端传输完成后建立索引事件将会变长，望理解。</p>
+]]></content>
+      <categories>
+        <category>公告</category>
+      </categories>
+      <tags>
+        <tag>服务器运维</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>常用命令-2023.2.3更新</title>
+    <url>/hexo/2023/01/07/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4-2021-9-16%E6%9B%B4%E6%96%B0/</url>
+    <content><![CDATA[<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ps aux    显示进程信息</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ps -elf -e    更详细的进程信息</span><br></pre></td></tr></table></figure>
+
+<p><del>gunicorn -w 4 -b 127.0.0.1:5000 index:app    智慧物联服务（已经停用）</del></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">/etc/motd    登录问候语</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">nethogs   带宽</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">/etc/nginx/sites-available/default    nginx配置（site）</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pip install -i https://pypi.tuna.tsinghua.edu.cn/simple [包名]    pip清华源下载</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo nano /etc/systemd/system/seahub.service    开机服务</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">/home/pi/seafile/seafile-server-8.0.5    seafile服务器位置</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hdparm -Tt /dev/sda1    磁盘测速</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo uwsgi --ini uwsgi.ini    python后端启动</span><br><span class="line">sudo uwsgi --stop uwsgi.pid    python后端关闭(pid方法)</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo <span class="built_in">nohup</span> python main.py &gt;hello.log &amp;    后台执行操作</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>ZH碎碎念</category>
+      </categories>
+      <tags>
+        <tag>服务器运维</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Linux系统systemctl资料</title>
+    <url>/hexo/2021/09/19/Linux%E7%B3%BB%E7%BB%9Fsystemctl%E8%B5%84%E6%96%99/</url>
+    <content><![CDATA[<h3 id="一个例子"><a href="#一个例子" class="headerlink" title="一个例子"></a>一个例子</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">[Unit]</span><br><span class="line">Description=nginx - high performance web server</span><br><span class="line">Documentation=http://nginx.org/en/docs/</span><br><span class="line">After=network.target remote-fs.target nss-lookup.target</span><br><span class="line">[Service]</span><br><span class="line">Type=forking</span><br><span class="line">User=nginx</span><br><span class="line">Group=nginx</span><br><span class="line">ExecStartPre=/usr/<span class="built_in">local</span>/nginx/sbin/nginx -t</span><br><span class="line">ExecStart=/usr/<span class="built_in">local</span>/nginx/sbin/nginx</span><br><span class="line">ExecReload=/usr/<span class="built_in">local</span>/nginx/sbin/nginx -s reload</span><br><span class="line">ExecStop=/usr/<span class="built_in">local</span>/nginx/sbin/nginx -s stop</span><br><span class="line">[Install]</span><br><span class="line">WantedBy=multi-user.target</span><br></pre></td></tr></table></figure>
+
+<h2 id="各部分详解"><a href="#各部分详解" class="headerlink" title="各部分详解"></a>各部分详解</h2><h3 id="Unit"><a href="#Unit" class="headerlink" title="Unit"></a>Unit</h3><p>[Unit]<br>Documentation    文档地址<br>Description      简短描述<br>Requires         当前 Unit 依赖的其他 Unit，如果它们没有运行，当前 Unit 会启动失败<br>Wants            与当前 Unit 配合的其他 Unit，如果它们没有运行，当前 Unit 不会启动失败<br>BindsTo          与Requires类似，它指定的 Unit 如果退出，会导致当前 Unit 停止运行<br>Before           如果该字段指定的 Unit 也要启动，那么必须在当前 Unit 之后启动<br>After            是指在那个服务后面启动，一般是网络服务启动后启动<br>Conflicts        这里指定的 Unit 不能与当前 Unit 同时运行<br>Condition…     当前 Unit 运行必须满足的条件，否则不会运行<br>Assert…        当前 Unit 运行必须满足的条件，否则会报启动失败</p>
+<h3 id="Service"><a href="#Service" class="headerlink" title="Service"></a>Service</h3><p>[Service]<br>Type=forking           表示后台运行模式。<br>User=user              设置服务运行的用户<br>Group=user             设置服务运行的用户组<br>Restart=always         总是重启<br>RestartSec=1           重启等待的秒数<br>PrivateTmp=true        表示给服务分配独立的临时空间<br>Environment            指定环境变量<br>PIDFile                指定服务的PID文件<br>ExecStart              启动当前服务的命令<br>ExecStartPre           启动当前服务之前执行的命令<br>ExecStartPost          启动当前服务之后执行的命令<br>ExecReload             重启当前服务时执行的命令<br>ExecStop               停止当前服务时执行的命令<br>ExecStopPost           停止当其服务之后执行的命令<br>KillMode               当前控制组里的所有子进程，都会被杀掉</p>
+<p>Type=simple       默认值,ExecStart字段启动的进程为主进程<br>     forking      ExecStart字段将以fork()方式启动<br>     oneshot      类似于simple，但只执行一次，Systemd 会等它执行完，才启动其他服务，会使Exex* 后面的命令支持 BASH 语法。<br>     dbus         类似于simple，但会等待 D-Bus 信号后启动<br>     notify       类似于simple，启动结束后会发出通知信号，然后 Systemd 再启动其他服务<br>     idle         类似于simple，但是要等到其他任务都执行完，才会启动该服务。一种使用场合是为让该服务的输出，不与其他服务的输出相混合</p>
+<p>Restart=no           默认值退出后不会重启<br>        on-success   只有正常退出时（退出状态码为0），才会重启<br>        on-failure   非正常退出时（非0），包括被信号终止和超时，才会重启<br>        on-abnormal  只有被信号终止和超时，才会重启<br>        on-abort     只有在收到没有捕捉到的信号终止时，才会重启<br>        on-watchdog  超时退出，才会重启<br>        always       不管是什么退出原因，总是重启，但是不会重起 systemctl stop serviceName.service 命令停止后的服务。</p>
+<p>KillMode=control-group    默认,当前控制组里的所有子进程，都会被杀掉<br>         process          只杀主进程<br>         mixed            主进程将收到SIGTERM信号，子进程收到SIGKILL信号<br>         none             没有进程会被杀掉，只是执行服务的stop命令</p>
+<h3 id="Install"><a href="#Install" class="headerlink" title="Install"></a>Install</h3><p>[Install]<br>通常是配置文件的最后一个区块，用来定义如何启动，以及是否开机启动。它的主要字段如下。<br>WantedBy=multi-user.target    # 多用户<br>WantedBy：它的值是一个或多个 Target，当前 Unit 激活时（enable）符号链接会放入/etc/systemd/system目录下面以 Target 名 + .wants后缀构成的子目录中<br>RequiredBy：它的值是一个或多个 Target，当前 Unit 激活时，符号链接会放入/etc/systemd/system目录下面以 Target 名 + .required后缀构成的子目录中<br>Alias：当前 Unit 可用于启动的别名<br>Also：当前 Unit 激活（enable）时，会被同时激活的其他 Unit </p>
+<p>WantedBy字段：<br>WantedBy=multi-user.target    表示多用户命令行状态，这个设置很重要<br>         graphical.target     表示图形用户状体，它依赖于multi-user.target</p>
+]]></content>
+      <categories>
+        <category>资料</category>
+      </categories>
+      <tags>
+        <tag>服务器运维</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2022新年快乐</title>
+    <url>/hexo/2022/01/15/2022%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90/</url>
+    <content><![CDATA[<p>2022到了，把hexo老博客翻出来改改标题啥的，不能让它一直吃灰对不~<br>顺便说一下XB小报2022年度的更新flag</p>
+<h3 id="XB小报的更新展望"><a href="#XB小报的更新展望" class="headerlink" title="XB小报的更新展望"></a>XB小报的更新展望</h3><p>如你所见，这个页面变成了ZH的blog，但是XB小报内容该说也得说。<br>新的一年，我们计划了以下几个目标：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">适配系统的深色模式（现在只有使用开源项目的关于页面适配了深色模式，very不协调）</span><br><span class="line">新增全新的material you主题（大家都在用跟个风）</span><br><span class="line">把挖的坑填上（具体参见武理校园工具箱里的一大堆坑）</span><br><span class="line">主页计划加入古诗什么的，可以自行切换那种</span><br><span class="line">重做主页。现版本的主页其实是一种新的尝试，全部用Java写页面的尝试，但是美观嘛...有亿点点难看，，，所以我们计划适配material you的同时再次重做主页</span><br><span class="line">以上更完，就可以升2.4了</span><br></pre></td></tr></table></figure>
+<p>希望大家在新的一年里心想事成，万事如意~<br>（希望到年底我可以把这些坑填完）<br>最后感谢在看的你的支持<br>どうもありがとう❤~</p>
+]]></content>
+      <categories>
+        <category>ZH碎碎念</category>
+      </categories>
+      <tags>
+        <tag>闲话</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>XB小报填坑及未来展望</title>
+    <url>/hexo/2023/01/07/XB%E5%B0%8F%E6%8A%A5%E5%A1%AB%E5%9D%91%E5%8F%8A%E6%9C%AA%E6%9D%A5%E5%B1%95%E6%9C%9B/</url>
+    <content><![CDATA[<h2 id="关于博客"><a href="#关于博客" class="headerlink" title="关于博客"></a>关于博客</h2><p>这几天突然（又）想起来有个博客，换了套主题还调试了好一会儿，主页背景就是出不来…罢了，还是老老实实的写markdown吧。</p>
+<h2 id="关于XB小报的近况"><a href="#关于XB小报的近况" class="headerlink" title="关于XB小报的近况"></a>关于XB小报的近况</h2><p>XB小报在10.17更新之后就没更新过，放假了，填坑与新功能开发也开始了。</p>
+<h3 id="2-5版本"><a href="#2-5版本" class="headerlink" title="2.5版本"></a>2.5版本</h3><p>发布2.5版本的一个里程碑事件是XB小报账号消息系统的上线。这套系统和刚刚写好的使用日志系统类似，都是一个数据库存储所有人的信息，再在需要时按需检索的系统。</p>
+<h3 id="最近在干嘛"><a href="#最近在干嘛" class="headerlink" title="最近在干嘛"></a>最近在干嘛</h3><p>在写XB小报的时候：最近在写有关账号安全的一些小功能，包括上次登录时间、设备、IP属地的展示与详细的账号使用日志（从1月2日晚开始收集），并且即日起异地登录会有站内信提醒，提醒范围是出省或出国（以IP属地判断）。<br>不在写XB小报的时候：沉迷喵斯、gal（猫娘🥵🥵我的猫娘🥵🥵）、看番（欣赏幼态审美，从你我做起！）。</p>
+<h3 id="未来的展望"><a href="#未来的展望" class="headerlink" title="未来的展望"></a>未来的展望</h3><p>XB小报的好多功能都是睡前睡不着的时候有的灵感😂，下面是一些待完成的小灵感，写在这里日后填坑用…</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">账号系统安全功能改进，包括手机令牌，两步验证或安全问题（大概率只会写安全问题，因为其他的难😨）</span><br><span class="line">账号系统新增等级系统（复刻B站等级就行，还得是bilibili，lv5御坂美琴！！！）</span><br><span class="line">windows端功能与手机端看齐（是的，windows端已经做出雏形了，目前只复刻了手机端账号系统的一部分功能，会择期发布）</span><br><span class="line">有时间重写一下主页（从去年说到今年的话题，虽然重做了一遍但还是感觉好丑，我的审美就这么不堪吗😟）</span><br><span class="line">网页端排上计划表（一直都想做网页端，XB小报APP发家就是靠HTML，现在APP做的差不多了也该反哺一下HTML端了）</span><br></pre></td></tr></table></figure>
+<h2 id="2023新年快乐"><a href="#2023新年快乐" class="headerlink" title="2023新年快乐"></a>2023新年快乐</h2><p>上一篇博客写在了2022的新年，这一篇正好写在了2023的新年。希望2023年我不会把博客忘记吧😂😂😂</p>
+<h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><p>“我们所经历的每个平凡的日常，也许就是连续发生的奇迹。”<br>这句话出现过好多次，在博客主页、我的简介以及断网、特殊日子和手动关闭一言更新的XB小报APP主页都有这句话。在所有的名言警句里面，只有这句话，第一次看到它的时候真正的触动了我，给我了一种特别的感觉。具体已经无从查起了。这句话同样送给大家，一定要热爱生活，也抽空爱爱自己。<br>这篇博客码完了，下次会在什么时候呢？</p>
+]]></content>
+      <categories>
+        <category>ZH碎碎念</category>
+      </categories>
+      <tags>
+        <tag>闲话</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一些碎碎念</title>
+    <url>/hexo/2023/01/07/%E4%B8%80%E4%BA%9B%E7%A2%8E%E7%A2%8E%E5%BF%B5/</url>
+    <content><![CDATA[<h2 id="背景图的乌龙"><a href="#背景图的乌龙" class="headerlink" title="背景图的乌龙"></a>背景图的乌龙</h2><p>昨天写完2023展望，执行过</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo generate</span><br></pre></td></tr></table></figure>
+<p>之后，传上服务器突然发现主页的背景图显示正常了…啊这…</p>
+]]></content>
+      <categories>
+        <category>ZH碎碎念</category>
+      </categories>
+      <tags>
+        <tag>闲话</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>SD卡常用技术信息</title>
+    <url>/hexo/2023/02/04/SD%E5%8D%A1%E5%B8%B8%E7%94%A8%E6%8A%80%E6%9C%AF%E4%BF%A1%E6%81%AF/</url>
+    <content><![CDATA[<h1 id="速率等级"><a href="#速率等级" class="headerlink" title="速率等级"></a>速率等级</h1><p>根据数据传输速度，SD有不同的等级。</p>
+<h2 id="“X”表示法（SD1-0规范，现已不用）"><a href="#“X”表示法（SD1-0规范，现已不用）" class="headerlink" title="“X”表示法（SD1.0规范，现已不用）"></a>“X”表示法（SD1.0规范，现已不用）</h2><p>它是按CD-ROM的150kB&#x2F;s为1倍速的速率计算方法来计算的。基本上，它们能够比标准CD-ROM的传输速度快6倍(900kB&#x2F;秒)，而高速的SD卡更能传输66x(10MB&#x2F;秒)以及133x或更高的速度。一些数码相机需要高速SD卡来更流畅地拍摄影片，和连续拍摄相片更迅速。</p>
+<pre><code>直至2005年12月，大部分设备跟从SD卡的1.01规格，而更高速至133x的设备亦跟从1.1规格,最高12.5MB/秒。
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>速度等级</th>
+<th>读取速度(MB&#x2F;秒)</th>
+<th>相当于Speed Class</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>13x</td>
+<td>2.0</td>
+<td>2</td>
+</tr>
+<tr>
+<td>26x</td>
+<td>4.0</td>
+<td>4</td>
+</tr>
+<tr>
+<td>40x</td>
+<td>6.0</td>
+<td>6</td>
+</tr>
+<tr>
+<td>66x</td>
+<td>10.0</td>
+<td>10</td>
+</tr>
+</tbody></table>
+<h2 id="Class等级（SD2-0规范）"><a href="#Class等级（SD2-0规范）" class="headerlink" title="Class等级（SD2.0规范）"></a>Class等级（SD2.0规范）</h2><p>SD协会针对TF内存卡、SDHC的传输速度进行了规范分类，按照最低读写速度定义了几个Class等级，Class后面的数字表示了存储卡最低读写速度。</p>
+<pre><code>在Class10卡问世之前，存在过一阵Class11和Class13的卡,但这种标准最终没有被SDA共识。
+</code></pre>
+<p>速度等级Speed Class等级（SD总线）在存储卡上的标志用一个未闭合的圆圈圈上一个数字。</p>
+<table>
+<thead>
+<tr>
+<th>Class等级</th>
+<th>最低读写速度</th>
+<th>不同等级的应用说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Class 0</td>
+<td></td>
+<td>低于Class 2和未标注Speed Class的情况</td>
+</tr>
+<tr>
+<td>Class 2</td>
+<td>2MB&#x2F;s</td>
+<td>能满足观看普通MPEG4 MPEG2的电影、SDTV、数码摄像机拍摄</td>
+</tr>
+<tr>
+<td>Class 4</td>
+<td>4MB&#x2F;s</td>
+<td>可以流畅播放高清电视（HDTV），数码相机连拍等需求</td>
+</tr>
+<tr>
+<td>Class 6</td>
+<td>6MB&#x2F;s</td>
+<td>满足单反相机连拍和专业设备的使用要求</td>
+</tr>
+<tr>
+<td>Class 10</td>
+<td>10MB&#x2F;s</td>
+<td>满足更高速率要求的存储需要</td>
+</tr>
+</tbody></table>
+<h2 id="UHS速度等级（SD3-0规范）"><a href="#UHS速度等级（SD3-0规范）" class="headerlink" title="UHS速度等级（SD3.0规范）"></a>UHS速度等级（SD3.0规范）</h2><p>UHS速度等级也是标识存储卡的最低写入速度，只有两种等级：</p>
+<pre><code>U1 10MB/s
+U3 30MB/s
+</code></pre>
+<p>UHS速度等级在存储卡上的标志为字母U，中间包含等级的数字。</p>
+<table>
+<thead>
+<tr>
+<th>UHS等级</th>
+<th>最低读写速度</th>
+<th>不同等级的应用说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>U1</td>
+<td>10MB&#x2F;s</td>
+<td>全高清视频录制，连续拍摄高清静态影像</td>
+</tr>
+<tr>
+<td>U3</td>
+<td>30MB&#x2F;s</td>
+<td>2K、4K视频录制</td>
+</tr>
+</tbody></table>
+<h2 id="VHS速度等级"><a href="#VHS速度等级" class="headerlink" title="VHS速度等级"></a>VHS速度等级</h2><p>由于现在用户拍摄高质量视频的需求越来越强烈，对存储卡速度的要求也逐渐提高，因此又推出了支持更高标识的速度等级。V后面的数字为几，就代表最低写入速度为多少。</p>
+<pre><code>其中，如果想支持拍摄高质量4K视频，一般需要V30或者V60等级的存储卡。
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>UHS等级</th>
+<th>最低读写速度</th>
+<th>视频拍摄质量</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>V6</td>
+<td>6MB&#x2F;s</td>
+<td>HD</td>
+</tr>
+<tr>
+<td>V10</td>
+<td>10MB&#x2F;s</td>
+<td>HD</td>
+</tr>
+<tr>
+<td>V30</td>
+<td>30MB&#x2F;s</td>
+<td>4K UHD</td>
+</tr>
+<tr>
+<td>V60</td>
+<td>60MB&#x2F;s</td>
+<td>8K+</td>
+</tr>
+<tr>
+<td>V90</td>
+<td>90MB&#x2F;s</td>
+<td>8K+</td>
+</tr>
+</tbody></table>
+<h2 id="A1、A2标准体系"><a href="#A1、A2标准体系" class="headerlink" title="A1、A2标准体系"></a>A1、A2标准体系</h2><p>SD卡协会在2017年左右公布了一个新的体系标准，用于满足该标准认证的SD卡在智能手机中运行APP时，能够达到流畅运行的基本需求。</p>
+<table>
+<thead>
+<tr>
+<th>标准</th>
+<th>英文</th>
+<th>最低连续读写</th>
+<th>随机读取</th>
+<th>随机写入</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>A1</td>
+<td>Application Performance Class 1</td>
+<td>10MB&#x2F;s Sequential</td>
+<td>1500 Read IOPS</td>
+<td>500 Write IOPS</td>
+</tr>
+<tr>
+<td>A2</td>
+<td>Application Performance Class 2</td>
+<td>10MB&#x2F;s Sequential</td>
+<td>4000 Read IOPS</td>
+<td>2000 Write IOPS</td>
+</tr>
+</tbody></table>
+<h1 id="容量等级"><a href="#容量等级" class="headerlink" title="容量等级"></a>容量等级</h1><table>
+<thead>
+<tr>
+<th></th>
+<th>SD Standard</th>
+<th>SDHC Standard</th>
+<th>SDXC Standard</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>容量</td>
+<td>上限至2GB</td>
+<td>2GB至32GB</td>
+<td>32GB至2TB</td>
+</tr>
+<tr>
+<td>默认文件系统</td>
+<td>FAT 12, 16</td>
+<td>FAT 32</td>
+<td>exFAT</td>
+</tr>
+</tbody></table>
+<pre><code>SD容量有8MB、16MB、32MB、64MB、128MB、256MB、512MB、1GB、2GB。
+SDHC容量有2GB、4GB、8GB、16GB、32GB。
+SDXC容量有32GB、48GB、64GB、128GB、256GB、512GB、1TB、2TB。
+</code></pre>
+<h1 id="覆写保护开关"><a href="#覆写保护开关" class="headerlink" title="覆写保护开关"></a>覆写保护开关</h1><p>由上面观看，在SD卡的右面通常有一个开关，即是覆写保护开关，而MMC卡则没有。当覆写保护开关拨下时，SD卡将受到覆写保护，资料只能阅读。当覆写保护开关在上面位置，便可以覆写资料。由于这保护开关是选择性的，有些品牌的SD卡没有此保护掣。</p>
+<pre><code>覆写保护开关的原理与卡式录音带，VHS录像带，电脑磁片上的覆写保护类似。关闭状态表示可覆写，而开启状态表示被保护。
+</code></pre>
+<p>如果开关破损，这张卡便只能变成写保护的只读存储卡。有一种方法可以解决这个问题，即用胶带将凹口封住，这样的话这张卡将永远处于可写状态。</p>
+]]></content>
+      <categories>
+        <category>资料</category>
+      </categories>
+      <tags>
+        <tag>实用信息</tag>
+      </tags>
+  </entry>
+</search>

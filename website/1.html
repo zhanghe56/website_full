@@ -1,0 +1,49 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+  <meta charset="UTF-8"> 
+  <title>随机数生成</title> 
+</head> 
+<style type ="text/css"> 
+body{font-size: 20px;} 
+#box{border:3px solid #666;width:500px;height:300px;margin:20px auto;padding:20px;position: relative;} 
+#min,#max{width: 60px;margin:5px;} 
+#num{margin:15px;width: 115px;} 
+button{width:80px;height:30px;letter-spacing: 10px;font-size: 15px;} 
+h1{margin: 10px 90px;} 
+</style> 
+<body onload=""> 
+<div> 
+  <div id="box"> 
+    <h1>摇号</h1> 
+    <label>产生随机数的范围：</label><input type="text" id="min">--<input type="text" id="max"></br> 
+    <label>需要产生多少个随机数：</label><input type="text" id="num"></br> 
+    <button onclick="produce()">生成</button> 
+    <p id="result"></p> 
+  </div> 
+</div> 
+</body> 
+<script type="text/javascript"> 
+  function produce(){ 
+    var omin=document.getElementById("min").value; 
+    var max=document.getElementById("max").value; 
+    var num=document.getElementById("num").value; 
+    var oArray=new Array; 
+    var result=""; 
+    var min=omin; 
+    for(var i=0;i<=max-omin;i++){ 
+       oArray[i]=min; 
+       min++; 
+    } 
+    //没有去重的原代码 
+    // for(var i=0;i<num;i++){ 
+    // result+=parseInt(Math.random()*(max-min+1) + min)+","; 
+    // } 
+    oArray.sort(function(){return 0.5 - Math.random(); })  //把按顺序存储的数组打乱 
+    for(var i=0;i<num;i++){ 
+    result+=oArray[i]+","; 
+  } 
+  document.getElementById("result").innerText=result; 
+} 
+</script> 
+</html> 

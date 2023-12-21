@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="Hexo Theme Keep">
+    <meta name="description" content="Hexo Theme Keep">
+    <meta name="author" content="ZH">
+    
+    <title>
+        
+            SD卡常用技术信息 |
+        
+        ZH&#39;s blog
+    </title>
+    
+<link rel="stylesheet" href="/hexo/css/style.css">
+
+    <link rel="shortcut icon" href="/hexo/images/logo.png">
+    
+<link rel="stylesheet" href="/hexo/font/css/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/hexo/font/css/regular.min.css">
+
+    
+<link rel="stylesheet" href="/hexo/font/css/solid.min.css">
+
+    
+<link rel="stylesheet" href="/hexo/font/css/brands.min.css">
+
+    <script id="hexo-configurations">
+    let KEEP = window.KEEP || {}
+    KEEP.hexo_config = {"hostname":"47.115.214.72","root":"/hexo/","language":"zh-CN","path":"search.xml"}
+    KEEP.theme_config = {"toc":{"enable":true,"number":true,"expand_all":true,"init_open":false},"style":{"primary_color":"#0066cc","logo":"/images/logo.png","favicon":"/images/logo.png","avatar":"/images/header.jpg","font_size":null,"font_family":null,"hover":{"shadow":false,"scale":false},"first_screen":{"enable":true,"header_transparent":false,"background_img":"/hexo/images/bg.svg","description":"我们所经历的每个平凡的日常，也许就是连续发生的奇迹。","font_color":null,"hitokoto":false},"scroll":{"progress_bar":true,"percent":true}},"local_search":{"enable":true,"preload":false},"code_copy":{},"code_block":{"tools":{"enable":true,"style":"default"},"highlight_theme":"default"},"side_tools":{},"pjax":{"enable":false},"lazyload":{"enable":true},"comment":{"enable":false,"use":"valine","valine":{"appid":null,"appkey":null,"server_urls":null,"placeholder":null},"gitalk":{"github_id":null,"github_admins":null,"repository":null,"client_id":null,"client_secret":null,"proxy":null},"twikoo":{"env_id":null,"region":null,"version":"1.6.8"},"waline":{"server_url":null,"reaction":false,"version":2}},"post":{"author_label":{"enable":true,"auto":true,"custom_label_list":["Trainee","Engineer","Architect"]},"word_count":{"enable":true,"wordcount":true,"min2read":true},"img_align":"left","copyright_info":true},"version":"3.6.1"}
+    KEEP.language_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"}
+    KEEP.language_code_block = {"copy":"复制代码","copied":"已复制","fold":"折叠代码块","folded":"已折叠"}
+    KEEP.language_copy_copyright = {"copy":"复制版权信息","copied":"已复制","title":"原文标题","author":"原文作者","link":"原文链接"}
+  </script>
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+        <span class="scroll-progress-bar"></span>
+    
+
+    
+</div>
+
+
+<main class="page-container">
+
+    
+
+    <div class="page-main-content">
+
+        <div class="page-main-content-top">
+            
+<header class="header-wrapper">
+
+    <div class="header-content">
+        <div class="left">
+            
+                <a class="logo-image" href="/">
+                    <img src="/hexo/images/logo.png">
+                </a>
+            
+            <a class="logo-title" href="/">
+               ZH&#39;s blog
+            </a>
+        </div>
+
+        <div class="right">
+            <div class="pc">
+                <ul class="menu-list">
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/hexo/"
+                            >
+                                首页
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/hexo/archives"
+                            >
+                                归档
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/hexo/tags"
+                            >
+                                标签
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/hexo/categories"
+                            >
+                                分类
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/hexo/about"
+                            >
+                                关于
+                            </a>
+                        </li>
+                    
+                    
+                        <li class="menu-item search search-popup-trigger">
+                            <i class="fas fa-search"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fas fa-search"></i></div>
+                
+                <div class="icon-item menu-bar">
+                    <div class="menu-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-drawer">
+        <ul class="drawer-menu-list">
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/hexo/">首页</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/hexo/archives">归档</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/hexo/tags">标签</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/hexo/categories">分类</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/hexo/about">关于</a>
+                </li>
+            
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="page-main-content-middle">
+
+            <div class="main-content">
+
+                
+                    <div class="fade-in-down-animation">
+    <div class="post-page-container">
+        <div class="article-content-container">
+
+            <div class="article-title">
+                <span class="title-hover-animation">SD卡常用技术信息</span>
+            </div>
+
+            
+                <div class="article-header">
+                    <div class="avatar">
+                        <img src="/hexo/images/header.jpg">
+                    </div>
+                    <div class="info">
+                        <div class="author">
+                            <span class="name">ZH</span>
+                            
+                                <span class="author-label">Lv2</span>
+                            
+                        </div>
+                        <div class="meta-info">
+                            
+<div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        
+            <i class="fa-regular fa-calendar-plus"></i>&nbsp;
+        
+        <span class="pc">2023-02-04 22:37:12</span>
+        <span class="mobile">2023-02-04 22:37</span>
+    </span>
+    
+        <span class="article-update-date article-meta-item">
+        <i class="fas fa-file-pen"></i>&nbsp;
+        <span class="pc">2023-02-04 23:14:46</span>
+    </span>
+    
+    
+        <span class="article-categories article-meta-item">
+            <i class="fas fa-folder"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/hexo/categories/%E8%B5%84%E6%96%99/">资料</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fas fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/hexo/tags/%E5%AE%9E%E7%94%A8%E4%BF%A1%E6%81%AF/">实用信息</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+
+    
+    
+        <span class="article-wordcount article-meta-item">
+            <i class="fas fa-file-word"></i>&nbsp;<span>1.1k 字</span>
+        </span>
+    
+    
+        <span class="article-min2read article-meta-item">
+            <i class="fas fa-clock"></i>&nbsp;<span>4 分钟</span>
+        </span>
+    
+    
+</div>
+
+                        </div>
+                    </div>
+                </div>
+            
+
+            <div class="article-content keep-markdown-body">
+                
+
+                <h1 id="速率等级"><a href="#速率等级" class="headerlink" title="速率等级"></a>速率等级</h1><p>根据数据传输速度，SD有不同的等级。</p>
+<h2 id="“X”表示法（SD1-0规范，现已不用）"><a href="#“X”表示法（SD1-0规范，现已不用）" class="headerlink" title="“X”表示法（SD1.0规范，现已不用）"></a>“X”表示法（SD1.0规范，现已不用）</h2><p>它是按CD-ROM的150kB&#x2F;s为1倍速的速率计算方法来计算的。基本上，它们能够比标准CD-ROM的传输速度快6倍(900kB&#x2F;秒)，而高速的SD卡更能传输66x(10MB&#x2F;秒)以及133x或更高的速度。一些数码相机需要高速SD卡来更流畅地拍摄影片，和连续拍摄相片更迅速。</p>
+<pre><code>直至2005年12月，大部分设备跟从SD卡的1.01规格，而更高速至133x的设备亦跟从1.1规格,最高12.5MB/秒。
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>速度等级</th>
+<th>读取速度(MB&#x2F;秒)</th>
+<th>相当于Speed Class</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>13x</td>
+<td>2.0</td>
+<td>2</td>
+</tr>
+<tr>
+<td>26x</td>
+<td>4.0</td>
+<td>4</td>
+</tr>
+<tr>
+<td>40x</td>
+<td>6.0</td>
+<td>6</td>
+</tr>
+<tr>
+<td>66x</td>
+<td>10.0</td>
+<td>10</td>
+</tr>
+</tbody></table>
+<h2 id="Class等级（SD2-0规范）"><a href="#Class等级（SD2-0规范）" class="headerlink" title="Class等级（SD2.0规范）"></a>Class等级（SD2.0规范）</h2><p>SD协会针对TF内存卡、SDHC的传输速度进行了规范分类，按照最低读写速度定义了几个Class等级，Class后面的数字表示了存储卡最低读写速度。</p>
+<pre><code>在Class10卡问世之前，存在过一阵Class11和Class13的卡,但这种标准最终没有被SDA共识。
+</code></pre>
+<p>速度等级Speed Class等级（SD总线）在存储卡上的标志用一个未闭合的圆圈圈上一个数字。</p>
+<table>
+<thead>
+<tr>
+<th>Class等级</th>
+<th>最低读写速度</th>
+<th>不同等级的应用说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Class 0</td>
+<td></td>
+<td>低于Class 2和未标注Speed Class的情况</td>
+</tr>
+<tr>
+<td>Class 2</td>
+<td>2MB&#x2F;s</td>
+<td>能满足观看普通MPEG4 MPEG2的电影、SDTV、数码摄像机拍摄</td>
+</tr>
+<tr>
+<td>Class 4</td>
+<td>4MB&#x2F;s</td>
+<td>可以流畅播放高清电视（HDTV），数码相机连拍等需求</td>
+</tr>
+<tr>
+<td>Class 6</td>
+<td>6MB&#x2F;s</td>
+<td>满足单反相机连拍和专业设备的使用要求</td>
+</tr>
+<tr>
+<td>Class 10</td>
+<td>10MB&#x2F;s</td>
+<td>满足更高速率要求的存储需要</td>
+</tr>
+</tbody></table>
+<h2 id="UHS速度等级（SD3-0规范）"><a href="#UHS速度等级（SD3-0规范）" class="headerlink" title="UHS速度等级（SD3.0规范）"></a>UHS速度等级（SD3.0规范）</h2><p>UHS速度等级也是标识存储卡的最低写入速度，只有两种等级：</p>
+<pre><code>U1 10MB/s
+U3 30MB/s
+</code></pre>
+<p>UHS速度等级在存储卡上的标志为字母U，中间包含等级的数字。</p>
+<table>
+<thead>
+<tr>
+<th>UHS等级</th>
+<th>最低读写速度</th>
+<th>不同等级的应用说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>U1</td>
+<td>10MB&#x2F;s</td>
+<td>全高清视频录制，连续拍摄高清静态影像</td>
+</tr>
+<tr>
+<td>U3</td>
+<td>30MB&#x2F;s</td>
+<td>2K、4K视频录制</td>
+</tr>
+</tbody></table>
+<h2 id="VHS速度等级"><a href="#VHS速度等级" class="headerlink" title="VHS速度等级"></a>VHS速度等级</h2><p>由于现在用户拍摄高质量视频的需求越来越强烈，对存储卡速度的要求也逐渐提高，因此又推出了支持更高标识的速度等级。V后面的数字为几，就代表最低写入速度为多少。</p>
+<pre><code>其中，如果想支持拍摄高质量4K视频，一般需要V30或者V60等级的存储卡。
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>UHS等级</th>
+<th>最低读写速度</th>
+<th>视频拍摄质量</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>V6</td>
+<td>6MB&#x2F;s</td>
+<td>HD</td>
+</tr>
+<tr>
+<td>V10</td>
+<td>10MB&#x2F;s</td>
+<td>HD</td>
+</tr>
+<tr>
+<td>V30</td>
+<td>30MB&#x2F;s</td>
+<td>4K UHD</td>
+</tr>
+<tr>
+<td>V60</td>
+<td>60MB&#x2F;s</td>
+<td>8K+</td>
+</tr>
+<tr>
+<td>V90</td>
+<td>90MB&#x2F;s</td>
+<td>8K+</td>
+</tr>
+</tbody></table>
+<h2 id="A1、A2标准体系"><a href="#A1、A2标准体系" class="headerlink" title="A1、A2标准体系"></a>A1、A2标准体系</h2><p>SD卡协会在2017年左右公布了一个新的体系标准，用于满足该标准认证的SD卡在智能手机中运行APP时，能够达到流畅运行的基本需求。</p>
+<table>
+<thead>
+<tr>
+<th>标准</th>
+<th>英文</th>
+<th>最低连续读写</th>
+<th>随机读取</th>
+<th>随机写入</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>A1</td>
+<td>Application Performance Class 1</td>
+<td>10MB&#x2F;s Sequential</td>
+<td>1500 Read IOPS</td>
+<td>500 Write IOPS</td>
+</tr>
+<tr>
+<td>A2</td>
+<td>Application Performance Class 2</td>
+<td>10MB&#x2F;s Sequential</td>
+<td>4000 Read IOPS</td>
+<td>2000 Write IOPS</td>
+</tr>
+</tbody></table>
+<h1 id="容量等级"><a href="#容量等级" class="headerlink" title="容量等级"></a>容量等级</h1><table>
+<thead>
+<tr>
+<th></th>
+<th>SD Standard</th>
+<th>SDHC Standard</th>
+<th>SDXC Standard</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>容量</td>
+<td>上限至2GB</td>
+<td>2GB至32GB</td>
+<td>32GB至2TB</td>
+</tr>
+<tr>
+<td>默认文件系统</td>
+<td>FAT 12, 16</td>
+<td>FAT 32</td>
+<td>exFAT</td>
+</tr>
+</tbody></table>
+<pre><code>SD容量有8MB、16MB、32MB、64MB、128MB、256MB、512MB、1GB、2GB。
+SDHC容量有2GB、4GB、8GB、16GB、32GB。
+SDXC容量有32GB、48GB、64GB、128GB、256GB、512GB、1TB、2TB。
+</code></pre>
+<h1 id="覆写保护开关"><a href="#覆写保护开关" class="headerlink" title="覆写保护开关"></a>覆写保护开关</h1><p>由上面观看，在SD卡的右面通常有一个开关，即是覆写保护开关，而MMC卡则没有。当覆写保护开关拨下时，SD卡将受到覆写保护，资料只能阅读。当覆写保护开关在上面位置，便可以覆写资料。由于这保护开关是选择性的，有些品牌的SD卡没有此保护掣。</p>
+<pre><code>覆写保护开关的原理与卡式录音带，VHS录像带，电脑磁片上的覆写保护类似。关闭状态表示可覆写，而开启状态表示被保护。
+</code></pre>
+<p>如果开关破损，这张卡便只能变成写保护的只读存储卡。有一种方法可以解决这个问题，即用胶带将凹口封住，这样的话这张卡将永远处于可写状态。</p>
+
+            </div>
+
+            
+                <div class="post-copyright-info">
+                    
+<div class="article-copyright-info-container">
+    <ul class="copyright-info-content">
+        <li class="post-title">
+            <span class="type">本文标题</span>：<span class="content">SD卡常用技术信息</span>
+        </li>
+        <li class="post-author">
+            <span class="type">本文作者</span>：<span class="content">ZH</span>
+        </li>
+        <li class="post-time">
+            <span class="type">创建时间</span>：<span class="content">2023-02-04 22:37:12</span>
+        </li>
+        <li class="post-link">
+            <span class="type">本文链接</span>：<span class="content">2023/02/04/SD卡常用技术信息/</span>
+        </li>
+        <li class="post-license">
+            <span class="type">版权声明</span>：<span class="content">本博客所有文章除特别声明外，均采用 <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">BY-NC-SA</a> 许可协议。转载请注明出处！</span>
+        </li>
+    </ul>
+    <div class="copy-copyright-info flex-center tooltip" data-content="复制版权信息" data-offset-y="-2px">
+        <i class="fa-solid fa-copy"></i>
+    </div>
+</div>
+
+                </div>
+            
+
+            
+                <ul class="post-tags-box">
+                    
+                        <li class="tag-item">
+                            <a href="/hexo/tags/%E5%AE%9E%E7%94%A8%E4%BF%A1%E6%81%AF/">#实用信息</a>&nbsp;
+                        </li>
+                    
+                </ul>
+            
+
+            
+                <div class="article-nav">
+                    
+                    
+                        <div class="article-next">
+                            <a class="next"
+                               rel="next"
+                               href="/hexo/2023/01/07/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4-2021-9-16%E6%9B%B4%E6%96%B0/"
+                            >
+                            <span class="title flex-center">
+                                <span class="post-nav-title-item">常用命令-2023.2.3更新</span>
+                                <span class="post-nav-item">下一篇</span>
+                            </span>
+                                <span class="right arrow-icon flex-center">
+                              <i class="fas fa-chevron-right"></i>
+                            </span>
+                            </a>
+                        </div>
+                    
+                </div>
+            
+
+            
+        </div>
+
+        
+            <div class="toc-content-container">
+                <div class="post-toc-wrap">
+    <div class="post-toc">
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%80%9F%E7%8E%87%E7%AD%89%E7%BA%A7"><span class="nav-number">1.</span> <span class="nav-text">速率等级</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E2%80%9CX%E2%80%9D%E8%A1%A8%E7%A4%BA%E6%B3%95%EF%BC%88SD1-0%E8%A7%84%E8%8C%83%EF%BC%8C%E7%8E%B0%E5%B7%B2%E4%B8%8D%E7%94%A8%EF%BC%89"><span class="nav-number">1.1.</span> <span class="nav-text">“X”表示法（SD1.0规范，现已不用）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Class%E7%AD%89%E7%BA%A7%EF%BC%88SD2-0%E8%A7%84%E8%8C%83%EF%BC%89"><span class="nav-number">1.2.</span> <span class="nav-text">Class等级（SD2.0规范）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#UHS%E9%80%9F%E5%BA%A6%E7%AD%89%E7%BA%A7%EF%BC%88SD3-0%E8%A7%84%E8%8C%83%EF%BC%89"><span class="nav-number">1.3.</span> <span class="nav-text">UHS速度等级（SD3.0规范）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#VHS%E9%80%9F%E5%BA%A6%E7%AD%89%E7%BA%A7"><span class="nav-number">1.4.</span> <span class="nav-text">VHS速度等级</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#A1%E3%80%81A2%E6%A0%87%E5%87%86%E4%BD%93%E7%B3%BB"><span class="nav-number">1.5.</span> <span class="nav-text">A1、A2标准体系</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%AE%B9%E9%87%8F%E7%AD%89%E7%BA%A7"><span class="nav-number">2.</span> <span class="nav-text">容量等级</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%A6%86%E5%86%99%E4%BF%9D%E6%8A%A4%E5%BC%80%E5%85%B3"><span class="nav-number">3.</span> <span class="nav-text">覆写保护开关</span></a></li></ol>
+    </div>
+</div>
+
+            </div>
+        
+    </div>
+</div>
+
+
+                
+            </div>
+
+        </div>
+
+        <div class="page-main-content-bottom">
+            
+<footer class="footer">
+    <div class="info-container">
+        <div class="copyright-info info-item">
+            &copy;
+            
+                <span>2021</span> -
+            
+            2023
+            
+                &nbsp;<i class="fas fa-heart icon-animate"></i>
+                &nbsp;<a href="/">ZH</a>
+            
+        </div>
+        
+        <div class="theme-info info-item">
+            由 <a target="_blank" href="https://hexo.io">Hexo</a> 驱动&nbsp;|&nbsp;主题&nbsp;<a class="theme-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep v3.6.1</a>
+        </div>
+        
+        
+    </div>
+</footer>
+
+        </div>
+    </div>
+
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="tools-item flex-center toggle-show-toc">
+                <i class="fas fa-list"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+    </ul>
+</div>
+
+        </div>
+    
+
+    <div class="right-bottom-side-tools">
+        <div class="side-tools-container">
+    <ul class="side-tools-list">
+        <li class="tools-item tool-font-adjust-plus flex-center">
+            <i class="fas fa-search-plus"></i>
+        </li>
+
+        <li class="tools-item tool-font-adjust-minus flex-center">
+            <i class="fas fa-search-minus"></i>
+        </li>
+
+        <li class="tools-item tool-dark-light-toggle flex-center">
+            <i class="fas fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+
+        <li class="tools-item tool-scroll-to-bottom flex-center">
+            <i class="fas fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="exposed-tools-list">
+        <li class="tools-item tool-toggle-show flex-center">
+            <i class="fas fa-cog fa-spin"></i>
+        </li>
+        
+            <li class="tools-item tool-scroll-to-top flex-center">
+                <i class="arrow-up fas fa-arrow-up"></i>
+                <span class="percent"></span>
+            </li>
+        
+    </ul>
+</div>
+
+    </div>
+
+    <div class="zoom-in-image-mask">
+    <img class="zoom-in-image">
+</div>
+
+
+    
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fas fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="搜索..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="close-popup-btn">
+                <i class="fas fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fas fa-spinner fa-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+</main>
+
+
+
+
+<script src="/hexo/js/utils.js"></script>
+
+<script src="/hexo/js/main.js"></script>
+
+<script src="/hexo/js/header-shrink.js"></script>
+
+<script src="/hexo/js/back2top.js"></script>
+
+<script src="/hexo/js/dark-light-toggle.js"></script>
+
+
+
+
+
+    
+<script src="/hexo/js/local-search.js"></script>
+
+
+
+
+    
+<script src="/hexo/js/code-block.js"></script>
+
+
+
+
+    
+<script src="/hexo/js/lazyload.js"></script>
+
+
+
+<div class="post-scripts">
+    
+        
+<script src="/hexo/js/post-helper.js"></script>
+
+        
+            
+<script src="/hexo/js/libs/anime.min.js"></script>
+
+        
+        
+            
+<script src="/hexo/js/toc.js"></script>
+
+        
+    
+</div>
+
+
+
+</body>
+</html>

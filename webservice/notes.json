@@ -1,0 +1,10 @@
+{
+  "note": "感谢您支持并使用XB小报APP！目前，XB小报APP的最新版本是2.5.1017rev1.99，发布日期是2023年10月17日。本版本优化了站内信、天气查询等多项功能并新增了cloudflare镜像站，如您还没有升级到最新版本，建议您进入设置检查更新或重新进入APP并根据指引下载安装新版本。以后也请多多支持XB小报~(伪)", 
+  "get_dark": "no", 
+  "notice": "yes", 
+  "noticeid":"000031", 
+  "noticedetail": "欢迎使用ZH新服务器！",
+  "theme_sw": false,
+  "theme_set": "green",
+  "theme_reason": "夏天与清爽的绿色主题更配哦~"
+}
