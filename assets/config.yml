@@ -1,0 +1,115 @@
+---
+# Homepage configuration
+# See https://fontawesome.com/search for icons options
+
+title: "ZH服务器"
+subtitle: "应用大全"
+logo: "assets/tools.png"
+
+header: true
+footer: '©2026 ZH服务器 <a href="mailto:zhanghe56@yeah.net">📧联系ZH</a>'
+
+# Optional theme customization
+theme: default
+
+# Optional theme customization (color overrrides)
+# overrrides can also be done using CSS vars 
+colors:
+  light:
+    highlight-primary: "#2196f3"
+    highlight-secondary: "#2196f3"
+    highlight-hover: "#5a95f5"
+    background: "#f5f5f5"
+    card-background: "#ffffff"
+    text: "#363636"
+    text-header: "#ffffff"
+    text-title: "#303030"
+    text-subtitle: "#424242"
+    card-shadow: rgba(0, 0, 0, 0.1)
+    link: "#3273dc"
+    link-hover: "#363636"
+  dark:
+    highlight-primary: "#1976d2"
+    highlight-secondary: "#2196f3"
+    highlight-hover: "#5a95f5"
+    background: "#131313"
+    card-background: "#2b2b2b"
+    text: "#eaeaea"
+    text-header: "#ffffff"
+    text-title: "#fafafa"
+    text-subtitle: "#f5f5f5"
+    card-shadow: rgba(0, 0, 0, 0.4)
+    link: "#3273dc"
+    link-hover: "#ffdd57"
+
+# Optional navbar
+# links: [] # Allows for navbar (dark mode, layout, and search) without any links
+links:
+  - name: "Gitee"
+    icon: "fab fa-git-alt"
+    url: "https://gitee.com/zhanghe56"
+  - name: "Github"
+    icon: "fab fa-github"
+    url: "https://github.com/zhanghe56"
+  - name: "Steam"
+    icon: "fab fa-steam"
+    url: "https://steamcommunity.com/id/zhanghe56"
+
+# Services
+# First level array represent a group.
+# Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
+services:
+  - name: "主要应用"
+    icon: "fas fa-cloud"
+    items:
+      - name: "ZH's blog"
+        icon: "fa-solid fa-blog"
+        subtitle: "ZH的博客"
+        tag: "ZH自有应用"
+        url: "https://zhanghe56.top/hexo"
+  - name: "XB小报APP"
+    icon: "fab fa-android"
+    items:
+      - name: "XB小报APP主站"
+        icon: "fa-solid fa-home"
+        subtitle: "XB小报APP应用内页面主站点"
+        tag: "XB小报APP"
+        url: "https://zhanghe56.top/webservice"
+      - name: "XB小报APP下载"
+        icon: "fa-solid fa-download"
+        subtitle: "XB小报APP发布与下载页面"
+        tag: "XB小报APP"
+        url: "https://zhanghe56.top/website"
+  - name: "已归档的旧应用"
+    icon: "fas fa-folder-closed"
+    items:
+      - name: "花语活动目录"
+        icon: "fa-solid fa-seedling"
+        subtitle: "环科类2107班花语活动答案目录"
+        tag: "已归档"
+        url: "https://zhanghe56.top/flower"
+      - name: "健康卫士"
+        icon: "fa-solid fa-database"
+        subtitle: "健康卫士-数据中心"
+        tag: "已归档"
+        url: "https://zhanghe56.top/healthy"
+      - name: "实验打卡"
+        icon: "fa-solid fa-calendar-check"
+        subtitle: "武理实验课程打卡（学生端）"
+        tag: "已归档"
+        url: "https://zhanghe56.top/check"
+  - name: "服务状态"
+    icon: "fas fa-globe"
+    items:
+      - name: "ZH服务器主站"
+        type: Ping
+        icon: "fa-solid fa-square-check"
+        url: "https://zhanghe56.top/"
+        method: "GET"
+        successCodes: [200, 418]
+      - name: "ZH服务器API服务"
+        type: Ping
+        icon: "fa-solid fa-square-check"
+        url: "https://zhanghe56.top/account"
+        method: "GET"
+        successCodes: [404]

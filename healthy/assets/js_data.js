@@ -310,5 +310,5 @@ function admin_output_ui(){
 }
 
 function jumptonew(){
-        window.top.location='http://47.115.214.72/healthy/';
+        window.top.location='http://zhanghe56.top/healthy/';
 }

@@ -1,8 +1,8 @@
 function jumptonew() {
-   window.location.href = "https://wwzx.lanzouw.com/iBMO61c03sdi"
+   window.location.href = "https://wwzx.lanzouu.com/il5j638oykoj"
 }
 function jumptobanner() {
-   window.location.replace("activity/ver2.5/banner.html")
+   window.location.replace("activity/ver2.6/banner.html")
 }
 function checkvision() {
    sessionStorage.newvision = ("99999");
@@ -46,7 +46,7 @@ function checkvision() {
    }
 }
 function jumptoheal() {
-   window.location.href = "http://47.115.214.72/healthy"
+   window.location.href = "http://zhanghe56.top/healthy"
 }
 
 function checkonlineres() {
